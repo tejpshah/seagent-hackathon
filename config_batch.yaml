@@ -7,9 +7,9 @@ perplexity_model: "sonar-pro"
 
 # Data file settings
 data:
-  input_csv: "data/seagent_data_mini.csv"
-  output_csv_csv: "results/mini_results_batch.csv"
-  output_csv_json: "results/mini_results_batch.json"
+  input_csv: "data/seagent_healthcare_data.csv"
+  output_csv_csv: "results/full_results_batch.csv"
+  output_csv_json: "results/full_results_batch.json"
   
 # (Optional) List fields you do NOT want to validate.
 validation:
