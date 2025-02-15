@@ -18,4 +18,3 @@ dependencies:
   - cpuonly
   - pytorch
   - torchvision
-prefix: /Users/tejshah/miniconda3
