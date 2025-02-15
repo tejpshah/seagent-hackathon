@@ -72,6 +72,8 @@ def main():
     # Prepare to accumulate results for CSV and JSON output.
     results_rows = []
     all_results = []
+    status_counts = {"Validated": 0, "Needs Work": 0, "Incorrect": 0}
+    total_fields = 0
     
     # Check if the input CSV file exists
     if not os.path.exists(input_csv):
@@ -99,7 +101,7 @@ def main():
             
             all_results.append(result)
             
-            # Append each field's result to our results list.
+            # Process each field's result and count statuses.
             provider_name = result.get("provider", provider)
             for field, outcome in result.get("results", {}).items():
                 results_rows.append({
@@ -109,6 +111,22 @@ def main():
                     "Message": outcome.get("message", ""),
                     "Source": "; ".join(outcome.get("source", []))
                 })
+                total_fields += 1
+                status = outcome.get("status", "")
+                if status in status_counts:
+                    status_counts[status] += 1
+    
+    # Compute statistics (percentages)
+    statistics = {}
+    if total_fields > 0:
+        for key, count in status_counts.items():
+            statistics[key] = round((count / total_fields) * 100, 2)
+    
+    # Prepare final JSON object including statistics.
+    final_json = {
+        "statistics": statistics,
+        "results": all_results
+    }
     
     # Write the aggregated results to the output CSV file.
     with open(output_csv, "w", newline="", encoding="utf-8") as outfile:
@@ -117,9 +135,9 @@ def main():
         writer.writeheader()
         writer.writerows(results_rows)
     
-    # Write the full JSON results.
+    # Write the full JSON results including statistics.
     with open(output_json, "w", encoding="utf-8") as jfile:
-        json.dump(all_results, jfile, indent=2)
+        json.dump(final_json, jfile, indent=2)
     
     logger.info("Validation complete. Results saved to %s and %s", output_csv, output_json)
 

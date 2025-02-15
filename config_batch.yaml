@@ -18,4 +18,4 @@ validation:
 
 # Logging settings (set to DEBUG for verbose logging)
 logging:
-  level: "DEBUG"
+  level: "INFO"

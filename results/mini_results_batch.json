@@ -1,617 +1,634 @@
-[
-  {
-    "provider": "UW Medicine Primary Care at Northgate",
-    "results": {
-      "Service Type": {
-        "status": "Validated",
-        "message": "Confirmed as Primary Care",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      },
-      "Contact Name": {
-        "status": "Needs Work",
-        "message": "Dr. Kimberly L. Collins is one of multiple providers at this location",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      },
-      "Phone": {
-        "status": "Validated",
-        "message": "Confirmed as 206-528-8000",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      },
-      "Email": {
-        "status": "Validated",
-        "message": "No email provided, which is correct",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      },
-      "Website": {
-        "status": "Validated",
-        "message": "Confirmed as correct",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      },
-      "Accepting New Patients": {
-        "status": "Validated",
-        "message": "Confirmed as accepting new patients",
-        "source": [
-          "https://www.healthgrades.com/physician/dr-kimberly-collins-xr6vr"
-        ]
-      },
-      "Cost of Service": {
-        "status": "Validated",
-        "message": "Varies based on insurance and services",
-        "source": [
-          "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
-        ]
-      },
-      "Payment Methods": {
-        "status": "Validated",
-        "message": "Accepts insurance and self-pay",
-        "source": [
-          "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
-        ]
-      },
-      "Eligibility": {
-        "status": "Validated",
-        "message": "No restrictions mentioned",
-        "source": [
-          "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
-        ]
-      },
-      "Opening Hours": {
-        "status": "Incorrect",
-        "message": "Hours are Mon-Thu 8am-8pm, Fri 8am-5pm, Sat 8:30am-4pm, Sun Closed",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      },
-      "Full Address": {
-        "status": "Validated",
-        "message": "Confirmed as correct",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      },
-      "Languages": {
-        "status": "Needs Work",
-        "message": "English confirmed, but other languages may be available",
-        "source": [
-          "https://www.uwmedicine.org/locations/primary-care-northgate"
-        ]
-      }
-    }
+{
+  "statistics": {
+    "Validated": 59.52,
+    "Needs Work": 25.0,
+    "Incorrect": 15.48
   },
-  {
-    "provider": "Swedish First Hill Primary Care",
-    "results": {
-      "Service Type": {
-        "status": "Validated",
-        "message": "Confirmed as Primary Care",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Contact Name": {
-        "status": "Validated",
-        "message": "Not specified in the search results",
-        "source": []
-      },
-      "Phone": {
-        "status": "Incorrect",
-        "message": "Phone number is 206-386-9505",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Email": {
-        "status": "Validated",
-        "message": "Not provided in the search results",
-        "source": []
-      },
-      "Website": {
-        "status": "Validated",
-        "message": "Correct website provided",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Accepting New Patients": {
-        "status": "Needs Work",
-        "message": "Not explicitly stated, but they invite scheduling appointments",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Cost of Service": {
-        "status": "Validated",
-        "message": "Visits start at $99 for online care",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Payment Methods": {
-        "status": "Validated",
-        "message": "Accepts insurance and self-pay",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Eligibility": {
-        "status": "Needs Work",
-        "message": "Provides health care services for adults",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Opening Hours": {
-        "status": "Validated",
-        "message": "Confirmed as Mon - Fri: 8 a.m. - 5 p.m.",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Full Address": {
-        "status": "Incorrect",
-        "message": "Correct address is 515 Minor Ave, Suite 300, Seattle, Washington 98104",
-        "source": [
-          "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-        ]
-      },
-      "Languages": {
-        "status": "Needs Work",
-        "message": "English is likely offered, but specific language information not provided",
-        "source": []
+  "results": [
+    {
+      "provider": "UW Medicine Primary Care at Northgate",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Confirmed as Primary Care",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "Dr. Kimberly L. Collins is listed as a provider",
+          "source": [
+            "https://www.uwmedicine.org/bios/kimberly-collins"
+          ]
+        },
+        "Phone": {
+          "status": "Validated",
+          "message": "Correct phone number",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email provided, which is correct",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "Correct website",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "Confirmed accepting new patients",
+          "source": [
+            "https://www.healthgrades.com/physician/dr-kimberly-collins-xr6vr"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Varies based on insurance and service",
+          "source": [
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Accepts insurance and self-pay",
+          "source": [
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "No restrictions mentioned",
+          "source": [
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Incorrect",
+          "message": "Hours are more extensive: Mon-Thu 8am-8pm, Fri 8am-5pm, Sat 8:30am-4pm",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "Correct address",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English confirmed, but other languages may be available",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        }
+      }
+    },
+    {
+      "provider": "Swedish First Hill Primary Care",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Confirmed as Primary Care",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "No specific contact name provided",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Phone": {
+          "status": "Incorrect",
+          "message": "Phone number is 206-386-9505",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email provided",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "Correct website provided",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Needs Work",
+          "message": "Not specified in given data, but likely accepting new patients",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Visits start at $99 for online care",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Accepts insurance and self-pay",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Eligibility": {
+          "status": "Needs Work",
+          "message": "Provides health care services for adults only",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Validated",
+          "message": "Correct hours: Mon-Fri: 8am-5pm",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Full Address": {
+          "status": "Incorrect",
+          "message": "Correct address is 515 Minor Ave, Suite 300, Seattle, Washington 98104",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English confirmed, but other languages likely available through interpreter services",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
+            "https://www.swedish.org/patients-and-visitors/interpreter-services"
+          ]
+        }
+      }
+    },
+    {
+      "provider": "Wise Patient Internal Medicine",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Confirmed as Internal Medicine",
+          "source": [
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "Janna Cuneo, NP is listed as a provider",
+          "source": [
+            "https://imwisepatient.com/janna-cuneo/"
+          ]
+        },
+        "Phone": {
+          "status": "Validated",
+          "message": "Confirmed as 206-466-5937",
+          "source": [
+            "https://imwisepatient.com/contact-us/",
+            "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
+          ]
+        },
+        "Email": {
+          "status": "Needs Work",
+          "message": "waitlist@wisepatientim.com is correct for new patients, but general email is information@wisepatientim.com",
+          "source": [
+            "https://imwisepatient.com/contact-us/",
+            "https://imwisepatient.com/"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "Confirmed as https://imwisepatient.com/",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "Confirmed that some providers are accepting new patients",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Needs Work",
+          "message": "Mentions a 'low monthly fee' but specific costs not provided",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Needs Work",
+          "message": "Direct Primary Care model mentioned, but specific payment methods not listed",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "No specific eligibility restrictions mentioned",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Needs Work",
+          "message": "Hours differ from provided. Mon-Fri: 8:00am-5:00pm, except Fri: 8:30am-4:00pm",
+          "source": [
+            "https://imwisepatient.com/contact-us/"
+          ]
+        },
+        "Full Address": {
+          "status": "Incorrect",
+          "message": "Correct address is 613 19th Ave E Ste 201, Seattle, Washington, 98112",
+          "source": [
+            "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049",
+            "https://imwisepatient.com/contact-us/"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English confirmed, but Spanish and Vietnamese also mentioned",
+          "source": [
+            "https://doctor.webmd.com/practice/wise-patient-internal-medicine-47c8c45d-bc62-4431-8ea2-4c89d1cb91d9"
+          ]
+        }
+      }
+    },
+    {
+      "provider": "The Polyclinic",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Multi-specialty care confirmed",
+          "source": [
+            "https://en.wikipedia.org/wiki/The_Polyclinic"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "No specific contact name provided, which is correct for a large organization",
+          "source": [
+            "https://www.polyclinic.com/about/contact-us.html"
+          ]
+        },
+        "Phone": {
+          "status": "Needs Work",
+          "message": "General inquiries: 1-206-329-1760 or 1-800-648-8837",
+          "source": [
+            "https://www.polyclinic.com/about/contact-us.html"
+          ]
+        },
+        "Email": {
+          "status": "Needs Work",
+          "message": "General feedback email: pnwfeedback@optumpnw.com",
+          "source": [
+            "https://www.polyclinic.com/about/contact-us.html"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "Correct provider lookup URL",
+          "source": [
+            "https://www.polyclinic.com/provider-lookup.html"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "New patient appointments available",
+          "source": [
+            "https://www.polyclinic.com/resources/mychart-appointments.html"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Costs vary depending on service and insurance",
+          "source": [
+            "https://www.polyclinic.com/about/contact-us.html"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Accepts most major health plans",
+          "source": [
+            "https://www.polyclinic.com/about/contact-us.html"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "Open to all patients",
+          "source": [
+            "https://www.polyclinic.com/about/contact-us.html"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Needs Work",
+          "message": "Varies by location. General inquiries: 7am-5pm daily",
+          "source": [
+            "https://www.polyclinic.com/about/contact-us.html"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "Multiple locations in Seattle area confirmed",
+          "source": [
+            "https://www.polyclinic.com/locations-map.html"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English confirmed, but other languages may be available",
+          "source": [
+            "https://en.wikipedia.org/wiki/The_Polyclinic"
+          ]
+        }
+      }
+    },
+    {
+      "provider": "Virginia Mason Medical Center",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Virginia Mason Medical Center is a multi-specialty care facility.",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
+          ]
+        },
+        "Contact Name": {
+          "status": "Incorrect",
+          "message": "No specific contact name is provided, but there is a general contact number.",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
+          ]
+        },
+        "Phone": {
+          "status": "Incorrect",
+          "message": "The main phone number is 206-624-1144.",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
+          ]
+        },
+        "Email": {
+          "status": "Incorrect",
+          "message": "No general email is provided, but there's a contact form on the website.",
+          "source": [
+            "https://www.vmfh.org/about-vmfh/contact-vmfh"
+          ]
+        },
+        "Website": {
+          "status": "Incorrect",
+          "message": "The correct website is https://www.vmfh.org/our-hospitals/virginia-mason-medical-center",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "The hospital is accepting new patients.",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center/patient-visitors/make-an-appointment"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Costs vary depending on the service and insurance coverage.",
+          "source": [
+            "https://www.vmfh.org/about-vmfh/contact-vmfh"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Needs Work",
+          "message": "They accept insurance and self-pay, but more specific information is not provided.",
+          "source": [
+            "https://www.vmfh.org/about-vmfh/contact-vmfh"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "The hospital appears to be open to all patients.",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Incorrect",
+          "message": "As a hospital, it's likely open 24/7, but specific clinic hours may vary.",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "The address is correct: 1100 9th Ave, Seattle, WA 98101.",
+          "source": [
+            "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English is provided, but they also offer interpreter services for other languages.",
+          "source": [
+            "https://www.vmfh.org/patient-and-visitor-information/language-and-interpreter-services"
+          ]
+        }
+      }
+    },
+    {
+      "provider": "Franciscan Medical Clinic - West Seattle",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Confirmed as Primary Care",
+          "source": [
+            "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "Michel (Marty) Couret is a provider at this clinic",
+          "source": [
+            "https://www.vmfh.org/find-a-doctor/family-medicine/michel-marty-couret-1699768648"
+          ]
+        },
+        "Phone": {
+          "status": "Incorrect",
+          "message": "Phone number is (206) 933-1041",
+          "source": [
+            "https://search.wa211.org/search/a95fdd0a-f328-5031-ba46-186ccc7867b4"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email provided in search results",
+          "source": []
+        },
+        "Website": {
+          "status": "Needs Work",
+          "message": "Correct website, but specific page may be outdated",
+          "source": [
+            "https://www.vmfh.org/find-a-location/franciscan-medical-clinic-west-seattle-291214"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "Confirmed accepting new patients",
+          "source": [
+            "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Accepts insurance and offers sliding fee scale",
+          "source": [
+            "https://resources.helpmegrowwa.org/search/3246a0d4-6362-5424-ac56-1bd48ad14ebd"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Accepts insurance and self-pay",
+          "source": [
+            "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "Open to all, no restrictions",
+          "source": [
+            "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Incorrect",
+          "message": "Hours are M-Th: 7am-6pm, F: 7am-5pm",
+          "source": [
+            "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "Address confirmed",
+          "source": [
+            "https://search.wa211.org/search/a95fdd0a-f328-5031-ba46-186ccc7867b4"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English confirmed, but other languages may be available",
+          "source": [
+            "https://www.wahealthcarecompare.com/provider/franciscan-medical-clinic-west-seattle"
+          ]
+        }
+      }
+    },
+    {
+      "provider": "EvergreenHealth",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "General healthcare services provided",
+          "source": [
+            "https://www.evergreenhealth.com"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "No specific contact name provided",
+          "source": [
+            "https://www.evergreenhealth.com"
+          ]
+        },
+        "Phone": {
+          "status": "Incorrect",
+          "message": "Main phone number is (425) 899-1000",
+          "source": [
+            "http://www.wsha.org/members/evergreenhealth/"
+          ]
+        },
+        "Email": {
+          "status": "Needs Work",
+          "message": "General foundation email: foundation@evergreenhealth.com",
+          "source": [
+            "https://evergreenhealthfoundation.com/about/contact-us/"
+          ]
+        },
+        "Website": {
+          "status": "Incorrect",
+          "message": "Correct website is https://www.evergreenhealth.com",
+          "source": [
+            "https://www.evergreenhealth.com"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Needs Work",
+          "message": "Some departments are accepting new patients, specifics vary",
+          "source": [
+            "https://www.evergreenhealth.com/patients-visitors/during-your-visit/"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Costs vary depending on service and insurance",
+          "source": [
+            "https://www.evergreenhealth.com"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Accepts insurance and self-pay",
+          "source": [
+            "https://www.evergreenhealth.com"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "Open to all patients",
+          "source": [
+            "https://www.evergreenhealth.com"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Needs Work",
+          "message": "Hours may vary by department, general office hours are Mon-Fri 8am-5pm",
+          "source": [
+            "https://www.evergreenhealth.com/patients-visitors/after-your-visit/medical-records/"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "Address is correct",
+          "source": [
+            "http://www.wsha.org/members/evergreenhealth/"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English and other languages supported through interpreter services",
+          "source": [
+            "https://www.evergreenhealth.com/patients-visitors/during-your-visit/language-assistance-interpreter-services/"
+          ]
+        }
       }
     }
-  },
-  {
-    "provider": "Wise Patient Internal Medicine",
-    "results": {
-      "Service Type": {
-        "status": "Validated",
-        "message": "Confirmed as Internal Medicine",
-        "source": [
-          "https://doctor.webmd.com/practice/wise-patient-internal-medicine-47c8c45d-bc62-4431-8ea2-4c89d1cb91d9"
-        ]
-      },
-      "Contact Name": {
-        "status": "Validated",
-        "message": "Janna Cuneo, NP is listed as a provider",
-        "source": [
-          "https://imwisepatient.com/janna-cuneo/"
-        ]
-      },
-      "Phone": {
-        "status": "Validated",
-        "message": "Confirmed as 206-466-5937",
-        "source": [
-          "https://imwisepatient.com/contact-us/"
-        ]
-      },
-      "Email": {
-        "status": "Validated",
-        "message": "waitlist@wisepatientim.com is correct for new patient inquiries",
-        "source": [
-          "https://imwisepatient.com"
-        ]
-      },
-      "Website": {
-        "status": "Validated",
-        "message": "Confirmed as https://imwisepatient.com/",
-        "source": [
-          "https://imwisepatient.com"
-        ]
-      },
-      "Accepting New Patients": {
-        "status": "Validated",
-        "message": "Confirmed accepting new patients",
-        "source": [
-          "https://imwisepatient.com"
-        ]
-      },
-      "Cost of Service": {
-        "status": "Needs Work",
-        "message": "Operates on a low monthly fee model, but specific costs not provided",
-        "source": [
-          "https://imwisepatient.com"
-        ]
-      },
-      "Payment Methods": {
-        "status": "Incorrect",
-        "message": "Operates as Direct Primary Care, not traditional insurance model",
-        "source": [
-          "https://imwisepatient.com"
-        ]
-      },
-      "Eligibility": {
-        "status": "Validated",
-        "message": "Open to all, no restrictions mentioned",
-        "source": [
-          "https://imwisepatient.com"
-        ]
-      },
-      "Opening Hours": {
-        "status": "Needs Work",
-        "message": "Hours are Mon-Fri: 8am-5pm, with slight variation on Friday",
-        "source": [
-          "https://imwisepatient.com/contact-us/"
-        ]
-      },
-      "Full Address": {
-        "status": "Incorrect",
-        "message": "Correct address is 613 19th Ave E Ste 201, Seattle, WA 98112",
-        "source": [
-          "https://imwisepatient.com/contact-us/"
-        ]
-      },
-      "Languages": {
-        "status": "Needs Work",
-        "message": "English confirmed, but Spanish and Vietnamese also listed",
-        "source": [
-          "https://doctor.webmd.com/practice/wise-patient-internal-medicine-47c8c45d-bc62-4431-8ea2-4c89d1cb91d9"
-        ]
-      }
-    }
-  },
-  {
-    "provider": "The Polyclinic",
-    "results": {
-      "Service Type": {
-        "status": "Validated",
-        "message": "Multi-specialty care confirmed",
-        "source": [
-          "https://www.polyclinic.com/about/about-us.html"
-        ]
-      },
-      "Contact Name": {
-        "status": "Validated",
-        "message": "No specific contact name provided",
-        "source": [
-          "https://www.polyclinic.com/about/contact-us.html"
-        ]
-      },
-      "Phone": {
-        "status": "Needs Work",
-        "message": "General inquiries: 1-206-329-1760 or toll free 1-800-648-8837",
-        "source": [
-          "https://www.polyclinic.com/about/contact-us.html"
-        ]
-      },
-      "Email": {
-        "status": "Validated",
-        "message": "No email provided, but MyChart messaging available",
-        "source": [
-          "https://www.polyclinic.com/about/contact-us.html"
-        ]
-      },
-      "Website": {
-        "status": "Validated",
-        "message": "Correct provider lookup URL",
-        "source": [
-          "https://www.polyclinic.com/provider-lookup.html"
-        ]
-      },
-      "Accepting New Patients": {
-        "status": "Validated",
-        "message": "New patient appointments available",
-        "source": [
-          "https://www.polyclinic.com/resources/mychart-appointments.html"
-        ]
-      },
-      "Cost of Service": {
-        "status": "Validated",
-        "message": "Varies depending on service and insurance",
-        "source": [
-          "https://www.polyclinic.com/about/contact-us.html"
-        ]
-      },
-      "Payment Methods": {
-        "status": "Needs Work",
-        "message": "Accepts most major health plans, specific payment methods not listed",
-        "source": [
-          "https://www.polyclinic.com/about/contact-us.html"
-        ]
-      },
-      "Eligibility": {
-        "status": "Validated",
-        "message": "Open to all patients",
-        "source": [
-          "https://www.polyclinic.com/about/about-us.html"
-        ]
-      },
-      "Opening Hours": {
-        "status": "Needs Work",
-        "message": "General inquiries open daily 7 am\u20135 pm, specific clinic hours may vary",
-        "source": [
-          "https://www.polyclinic.com/about/contact-us.html"
-        ]
-      },
-      "Full Address": {
-        "status": "Validated",
-        "message": "Multiple locations in Seattle, WA area",
-        "source": [
-          "https://www.polyclinic.com/about/about-us.html"
-        ]
-      },
-      "Languages": {
-        "status": "Needs Work",
-        "message": "English confirmed, other languages not specified",
-        "source": [
-          "https://www.polyclinic.com/about/about-us.html"
-        ]
-      }
-    }
-  },
-  {
-    "provider": "Virginia Mason Medical Center",
-    "results": {
-      "Service Type": {
-        "status": "Validated",
-        "message": "Multi-specialty care is provided",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Contact Name": {
-        "status": "Validated",
-        "message": "No specific contact name provided",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Phone": {
-        "status": "Incorrect",
-        "message": "Main phone number is 206-624-1144",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Email": {
-        "status": "Validated",
-        "message": "No general email provided",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Website": {
-        "status": "Incorrect",
-        "message": "Correct website is https://www.vmfh.org/our-hospitals/virginia-mason-medical-center",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Accepting New Patients": {
-        "status": "Needs Work",
-        "message": "Not explicitly stated, but appointments can be scheduled",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Cost of Service": {
-        "status": "Validated",
-        "message": "Costs vary depending on service",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Payment Methods": {
-        "status": "Needs Work",
-        "message": "Insurance accepted, but self-pay not explicitly mentioned",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Eligibility": {
-        "status": "Validated",
-        "message": "Open to all patients",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Opening Hours": {
-        "status": "Incorrect",
-        "message": "Specific hours not provided for the main hospital",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Full Address": {
-        "status": "Validated",
-        "message": "Address is correct",
-        "source": [
-          "https://www.vmfh.org/our-hospitals/virginia-mason-medical-center"
-        ]
-      },
-      "Languages": {
-        "status": "Needs Work",
-        "message": "English provided, but interpreter services available for other languages",
-        "source": [
-          "https://www.vmfh.org/patient-and-visitor-information/language-and-interpreter-services"
-        ]
-      }
-    }
-  },
-  {
-    "provider": "Franciscan Medical Clinic - West Seattle",
-    "results": {
-      "Service Type": {
-        "status": "Validated",
-        "message": "Confirmed as Primary Care",
-        "source": [
-          "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
-        ]
-      },
-      "Contact Name": {
-        "status": "Needs Work",
-        "message": "Michel (Marty) Couret is a provider, not the main contact",
-        "source": [
-          "https://www.vmfh.org/find-a-doctor/family-medicine/michel-marty-couret-1699768648"
-        ]
-      },
-      "Phone": {
-        "status": "Incorrect",
-        "message": "Phone number is (206) 933-1041",
-        "source": [
-          "https://search.wa211.org/search/a95fdd0a-f328-5031-ba46-186ccc7867b4"
-        ]
-      },
-      "Email": {
-        "status": "Validated",
-        "message": "No email provided in sources",
-        "source": []
-      },
-      "Website": {
-        "status": "Validated",
-        "message": "Correct website provided",
-        "source": [
-          "https://resources.helpmegrowwa.org/search/69058331-d400-5b60-b923-62cd9aa05758"
-        ]
-      },
-      "Accepting New Patients": {
-        "status": "Validated",
-        "message": "Confirmed accepting new patients",
-        "source": [
-          "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
-        ]
-      },
-      "Cost of Service": {
-        "status": "Validated",
-        "message": "Accepts insurance and offers sliding scale",
-        "source": [
-          "https://resources.helpmegrowwa.org/search/3246a0d4-6362-5424-ac56-1bd48ad14ebd"
-        ]
-      },
-      "Payment Methods": {
-        "status": "Validated",
-        "message": "Accepts insurance and self-pay",
-        "source": [
-          "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
-        ]
-      },
-      "Eligibility": {
-        "status": "Validated",
-        "message": "No restrictions mentioned",
-        "source": [
-          "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
-        ]
-      },
-      "Opening Hours": {
-        "status": "Needs Work",
-        "message": "Hours are M-Th 7am-6pm, F 7am-5pm",
-        "source": [
-          "https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b"
-        ]
-      },
-      "Full Address": {
-        "status": "Validated",
-        "message": "Correct address confirmed",
-        "source": [
-          "https://search.wa211.org/search/a95fdd0a-f328-5031-ba46-186ccc7867b4"
-        ]
-      },
-      "Languages": {
-        "status": "Needs Work",
-        "message": "Spanish also offered",
-        "source": [
-          "https://www.healthgrades.com/group-directory/wa-washington/seattle/franciscan-medical-clinic-west-seattle-xbnk7n"
-        ]
-      }
-    }
-  },
-  {
-    "provider": "EvergreenHealth",
-    "results": {
-      "Service Type": {
-        "status": "Validated",
-        "message": "General healthcare provider",
-        "source": [
-          "https://www.evergreenhealth.com"
-        ]
-      },
-      "Contact Name": {
-        "status": "Incorrect",
-        "message": "No specific contact name provided, but Patient Relations can be contacted",
-        "source": [
-          "https://www.evergreenhealth.com/patients-visitors/after-your-visit/express-a-concern/"
-        ]
-      },
-      "Phone": {
-        "status": "Incorrect",
-        "message": "Main phone number is (425) 899-1000",
-        "source": [
-          "http://www.wsha.org/members/evergreenhealth/"
-        ]
-      },
-      "Email": {
-        "status": "Incorrect",
-        "message": "General email not provided, but Patient Relations email is patientrep@evergreenhealth.com",
-        "source": [
-          "https://www.evergreenhealth.com/patients-visitors/after-your-visit/express-a-concern/"
-        ]
-      },
-      "Website": {
-        "status": "Incorrect",
-        "message": "Correct website is https://www.evergreenhealth.com",
-        "source": [
-          "https://www.evergreenhealth.com"
-        ]
-      },
-      "Accepting New Patients": {
-        "status": "Needs Work",
-        "message": "Varies by department, primary care is accepting new patients",
-        "source": [
-          "https://evergreenhealth.org/patient-resources/faq-3/"
-        ]
-      },
-      "Cost of Service": {
-        "status": "Validated",
-        "message": "Costs vary depending on service and insurance",
-        "source": [
-          "https://evergreenhealth.org/patient-resources/faq-3/"
-        ]
-      },
-      "Payment Methods": {
-        "status": "Validated",
-        "message": "Accepts insurance and self-pay",
-        "source": [
-          "https://evergreenhealth.org/patient-resources/faq-3/"
-        ]
-      },
-      "Eligibility": {
-        "status": "Validated",
-        "message": "Open to all patients",
-        "source": [
-          "https://www.evergreenhealth.com"
-        ]
-      },
-      "Opening Hours": {
-        "status": "Incorrect",
-        "message": "Hours vary by department and service",
-        "source": [
-          "https://www.evergreenhealth.com/patients-visitors/after-your-visit/express-a-concern/"
-        ]
-      },
-      "Full Address": {
-        "status": "Validated",
-        "message": "12040 NE 128th St, Kirkland, WA 98034",
-        "source": [
-          "http://www.wsha.org/members/evergreenhealth/"
-        ]
-      },
-      "Languages": {
-        "status": "Needs Work",
-        "message": "Offers language assistance and interpreter services beyond English",
-        "source": [
-          "https://www.evergreenhealth.com/patients-visitors/during-your-visit/language-assistance-interpreter-services/"
-        ]
-      }
-    }
-  }
-]
+  ]
+}

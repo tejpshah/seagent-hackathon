@@ -1,0 +1,106 @@
+Provider Name,Field,Status,Message,Source
+UW Medicine Primary Care at Northgate,Website,Validated,The website URL for UW Medicine Primary Care at Northgate is correct.,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Phone,Validated,The phone number 206-528-8000 is correct for UW Medicine Primary Care at Northgate.,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Accepting New Patients,Validated,"Multiple providers at UW Medicine Primary Care at Northgate are accepting new patients, including Karime Bolivar, MD.",https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Full Address,Validated,"The address 314 NE Thornton Pl, Seattle, WA 98125 is correct for UW Medicine Primary Care at Northgate.",https://www.uwmedicine.org/locations/primary-care-northgate; https://www.mapquest.com/us/washington/uw-medicine-primary-care-at-northgate-284237360
+UW Medicine Primary Care at Northgate,Email,Validated,No email address is provided for UW Medicine Primary Care at Northgate in the search results.,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Probability of validated,Validated,"The clinic hours are correct: Monday-Thursday 8am-8pm, Friday 8am-5pm, Saturday 8:30am-4pm, Sunday closed.",https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Opening Hours,Incorrect,"The opening hours are Mon-Thu: 8am-8pm, Fri: 8am-5pm, Sat: 8:30am-4pm, Sun: Closed",https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Contact Name,Validated,Dr. Kimberly L. Collins is confirmed as a provider at UW Medicine Primary Care at Northgate.,https://www.uwmedicine.org/locations/primary-care-northgate; https://www.uwmedicine.org/bios/kimberly-collins
+UW Medicine Primary Care at Northgate,Source,Validated,"The address, phone number, and hours of operation are correct for UW Medicine Primary Care at Northgate.",https://www.uwmedicine.org/locations/primary-care-northgate; https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+UW Medicine Primary Care at Northgate,Validated?,Validated,"The address, phone number, and hours of operation are correct for UW Medicine Primary Care at Northgate.",https://www.uwmedicine.org/locations/primary-care-northgate; https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+UW Medicine Primary Care at Northgate,Cost of Service,Needs Work,The cost of service varies depending on the specific care needed and insurance coverage. Patients can request price estimates prior to visits. UW Medicine offers financial assistance options for those who qualify.,https://www.uwmedicine.org/patient-resources/billing-and-insurance/estimate-options; https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Payment Methods,Validated,UW Medicine Primary Care at Northgate accepts insurance and self-pay. They also offer financial assistance and discounts for uninsured patients.,https://www.uwmedicine.org/locations/primary-care-northgate; https://pprs.doh.wa.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+UW Medicine Primary Care at Northgate,Languages,Needs Work,"While English is certainly offered, the clinic also provides services in multiple other languages. Interpreter services are available for over 80 languages, and some providers speak additional languages like Mandarin Chinese.",https://www.uwmedicine.org/patient-resources/interpreter-services; https://depts.washington.edu/tgnbhealthprogram/provider/ying-zhang/
+UW Medicine Primary Care at Northgate,Eligibility,Incorrect,"The clinic has restrictions on Medicaid acceptance. WA Apple Health (Medicaid) is accepted only for established patients, dependents of established patients, and patients referred by a UW physician.",https://pprs.doh.wa.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+UW Medicine Primary Care at Northgate,Service Type,Validated,"UW Medicine Primary Care at Northgate offers comprehensive primary care services, including family medicine, internal medicine, pediatrics, and more.",https://www.uwmedicine.org/locations/primary-care-northgate; https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+Swedish First Hill Primary Care,Cost of Service,Validated,The cost of $99 for visits is confirmed on the Swedish First Hill Primary Care webpage.,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Opening Hours,Validated,The opening hours Mon-Fri: 8am-5pm are correct for Swedish First Hill Primary Care.,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Phone,Incorrect,The correct phone number for Swedish First Hill Primary Care is 206-386-9505.,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Website,Validated,The website URL is correct for Swedish First Hill Primary Care.,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Accepting New Patients,Needs Work,"The search results do not explicitly state whether Swedish First Hill Primary Care is accepting new patients. However, they encourage calling to schedule an appointment, which suggests they may be accepting new patients.",https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Eligibility,Incorrect,"Swedish First Hill Primary Care provides health care services for adults only, not for all ages.",https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Probability of validated,Needs Work,"The phone number is correct, but the hours are outdated. Current hours are Mon-Fri: 8 a.m. - 5 p.m.",https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Source,Validated,"The address, phone number, and fax number are correct. The clinic provides primary care services for adults and is open Monday to Friday from 8 a.m. to 5 p.m.",https://www.swedish.org/locations/first-hill-primary-care; https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Payment Methods,Validated,Swedish First Hill Primary Care accepts both insurance and self-pay options. They work with various insurance providers and also offer a Self-Pay Program for uninsured or underinsured patients.,https://www.swedish.org/locations/ballard-campus/family-medicine-ballard/faqs; https://www.swedish.org/insurance-providers
+Swedish First Hill Primary Care,Validated?,Validated,"The clinic hours are confirmed as Monday to Friday, 8 a.m. - 5 p.m.",https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care; https://www.swedish.org/locations/first-hill-primary-care?Is=location
+Swedish First Hill Primary Care,Contact Name,Validated,No specific contact name is provided for Swedish First Hill Primary Care. The clinic is listed with general contact information only.,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care; https://www.healthgrades.com/group-directory/wa-washington/seattle/swedish-first-hill-primary-care-x86n5lg
+Swedish First Hill Primary Care,Languages,Needs Work,"While English is likely offered, the provider supports many more languages. In-person interpreters are available for over 100 languages and dialects, and telephone interpreters for over 200 languages.",https://www.swedish.org/patients-and-visitors/interpreter-services
+Swedish First Hill Primary Care,Full Address,Incorrect,"The correct address for Swedish First Hill Primary Care is 515 Minor Ave, Suite 300, Seattle, Washington 98104.",https://www.swedish.org/locations/first-hill-primary-care; https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Email,Validated,No email address is provided for Swedish First Hill Primary Care in the search results. The clinic's contact information includes phone numbers but not an email.,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care; https://doctor.webmd.com/practice/swedish-first-hill-primary-care-ste-65c7f7fe-c59b-4b09-b98e-b98870d7f8d6
+Swedish First Hill Primary Care,Service Type,Validated,"Swedish First Hill Primary Care provides primary care services for adults, including internal medicine, preventive care, and chronic disease management.",https://www.swedish.org/locations/first-hill-primary-care?Is=location
+Wise Patient Internal Medicine,Contact Name,Validated,"Janna Cuneo, NP is confirmed as a provider at Wise Patient Internal Medicine and is currently accepting new patients.",https://imwisepatient.com; https://imwisepatient.com/our-providers/
+Wise Patient Internal Medicine,Email,Validated,The email address waitlist@wisepatientim.com is correct for contacting Wise Patient Internal Medicine about becoming a new patient.,https://imwisepatient.com
+Wise Patient Internal Medicine,Accepting New Patients,Validated,"Janna Cuneo, NP, Nazlee Navabi, MD, and David Roesel, MD are currently accepting new patients at Wise Patient Internal Medicine.",https://imwisepatient.com
+Wise Patient Internal Medicine,Opening Hours,Needs Work,"The hours are partially correct but need updating. Monday-Thursday: 8:00am-5:00pm, Friday: 8:30am-4:00pm, Saturday-Sunday: Closed.",https://imwisepatient.com/contact-us/
+Wise Patient Internal Medicine,Phone,Validated,The phone number 206-466-5937 for Wise Patient Internal Medicine is correct.,https://imwisepatient.com/contact-us/; https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049
+Wise Patient Internal Medicine,Full Address,Incorrect,"The correct address is 613 19th Ave E Ste 201, Seattle, WA 98112.",https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa; https://imwisepatient.com/contact-us/
+Wise Patient Internal Medicine,Languages,Needs Work,"While English is likely spoken, the search results do not explicitly confirm languages offered. Additional languages may be available.",https://imwisepatient.com/our-providers/; https://imwisepatient.com
+Wise Patient Internal Medicine,Website,Validated,The website https://imwisepatient.com/ is correct for Wise Patient Internal Medicine.,https://imwisepatient.com; https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049
+Wise Patient Internal Medicine,Eligibility,Needs Work,"Wise Patient Internal Medicine is not open to all. Only specific providers are currently accepting new patients, and there are waitlists for some doctors.",https://imwisepatient.com
+Wise Patient Internal Medicine,Service Type,Validated,Wise Patient Internal Medicine specializes in Internal Medicine.,https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa; https://imwisepatient.com/our-providers/
+Wise Patient Internal Medicine,Payment Methods,Validated,"Wise Patient Internal Medicine accepts both insurance and self-pay options. They offer a Direct Primary Care membership for $149/month as a self-pay option, and also work with insurance plans.",https://imwisepatient.com/membership-benefits/; https://imwisepatient.com/direct-primary-care/
+Wise Patient Internal Medicine,Validated?,Validated,"Wise Patient Internal Medicine is located at 613 19th Ave E Ste 201, Seattle, WA 98112. They specialize in Internal Medicine and offer telehealth services.",https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa; https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049
+Wise Patient Internal Medicine,Cost of Service,Needs Work,"The cost of service for Wise Patient Internal Medicine is $149/month for Direct Primary Care memberships as of October 2024, but this may not be the most current rate.",https://imwisepatient.com/direct-primary-care/membership-pricing-faqs/
+Wise Patient Internal Medicine,Source,Validated,"The address 613 19th Ave E Ste 201, Seattle, WA 98112 is correct for Wise Patient Internal Medicine.",https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa; https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049
+Wise Patient Internal Medicine,Probability of validated,Validated,"Wise Patient Internal Medicine is located at 613 19th Ave E Ste 201, Seattle, WA 98112.",https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa; https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049
+The Polyclinic,Payment Methods,Needs Work,Error validating this field.,
+The Polyclinic,Languages,Needs Work,Error validating this field.,
+The Polyclinic,Website,Needs Work,Error validating this field.,
+The Polyclinic,Full Address,Needs Work,Error validating this field.,
+The Polyclinic,Phone,Needs Work,Error validating this field.,
+The Polyclinic,Contact Name,Needs Work,Error validating this field.,
+The Polyclinic,Cost of Service,Needs Work,Error validating this field.,
+The Polyclinic,Accepting New Patients,Needs Work,Error validating this field.,
+The Polyclinic,Eligibility,Needs Work,Error validating this field.,
+The Polyclinic,Source,Needs Work,Error validating this field.,
+The Polyclinic,Probability of validated,Needs Work,Error validating this field.,
+The Polyclinic,Service Type,Needs Work,Error validating this field.,
+The Polyclinic,Validated?,Needs Work,Error validating this field.,
+The Polyclinic,Email,Validated,No email address is provided for The Polyclinic on their contact page. They offer phone numbers for general inquiries and specific departments.,https://www.polyclinic.com/about/contact-us.html
+The Polyclinic,Opening Hours,Needs Work,"The provided hours are partially correct but incomplete. The search results indicate more detailed operating hours, including different times for appointments and walk-ins, as well as Saturday hours.",https://polyclinic.singhealth.com.sg/patient-care/our-polyclinics
+Virginia Mason Medical Center,Website,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Payment Methods,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Accepting New Patients,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Service Type,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Eligibility,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Email,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Phone,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Validated?,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Source,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Languages,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Opening Hours,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Full Address,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Probability of validated,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Cost of Service,Needs Work,Error validating this field.,
+Virginia Mason Medical Center,Contact Name,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Service Type,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Website,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Contact Name,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Source,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Email,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Probability of validated,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Opening Hours,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Languages,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Phone,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Eligibility,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Validated?,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Accepting New Patients,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Payment Methods,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Cost of Service,Needs Work,Error validating this field.,
+Franciscan Medical Clinic - West Seattle,Full Address,Needs Work,Error validating this field.,
+EvergreenHealth,Eligibility,Needs Work,Error validating this field.,
+EvergreenHealth,Phone,Needs Work,Error validating this field.,
+EvergreenHealth,Accepting New Patients,Needs Work,Error validating this field.,
+EvergreenHealth,Email,Needs Work,Error validating this field.,
+EvergreenHealth,Cost of Service,Needs Work,Error validating this field.,
+EvergreenHealth,Service Type,Needs Work,Error validating this field.,
+EvergreenHealth,Contact Name,Needs Work,Error validating this field.,
+EvergreenHealth,Opening Hours,Needs Work,Error validating this field.,
+EvergreenHealth,Probability of validated,Needs Work,Error validating this field.,
+EvergreenHealth,Validated?,Needs Work,Error validating this field.,
+EvergreenHealth,Payment Methods,Needs Work,Error validating this field.,
+EvergreenHealth,Full Address,Needs Work,Error validating this field.,
+EvergreenHealth,Languages,Needs Work,Error validating this field.,
+EvergreenHealth,Source,Needs Work,Error validating this field.,
+EvergreenHealth,Website,Needs Work,Error validating this field.,
