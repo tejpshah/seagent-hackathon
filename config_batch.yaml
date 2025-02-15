@@ -15,7 +15,10 @@ data:
 validation:
   fields_to_skip:
     - "Provider Name"
-
+    - "Validated?"
+    - "Probability of validated"
+    - "Source"
+    
 # Logging settings (set to DEBUG for verbose logging)
 logging:
   level: "INFO"

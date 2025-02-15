@@ -3,7 +3,7 @@ import logging
 import yaml
 import argparse
 import json
-import csv
+import csv  
 from dotenv import load_dotenv
 from utils.perplexity_client import PerplexityClient
 from strategies import strategy_batch, strategy_threaded
@@ -58,22 +58,20 @@ def main():
     
     # Get data file paths from config
     input_csv = config.get("data", {}).get("input_csv", "data/seagent_healthcare_data.csv")
-    output_csv = config.get("data", {}).get("output_csv_csv", "results/results.csv")
     output_json = config.get("data", {}).get("output_csv_json", "results/results.json")
     
     # Optionally, get a list of fields to skip (like the "Provider Name")
     fields_to_skip = config.get("validation", {}).get("fields_to_skip", ["Provider Name"])
     
     # Ensure the results folder exists.
-    results_folder = os.path.dirname(output_csv)
+    results_folder = os.path.dirname(output_json)
     if not os.path.exists(results_folder):
         os.makedirs(results_folder)
     
-    # Prepare to accumulate results for CSV and JSON output.
-    results_rows = []
+    # Prepare to accumulate results for JSON output.
     all_results = []
-    status_counts = {"Validated": 0, "Needs Work": 0, "Incorrect": 0}
-    total_fields = 0
+    global_status_counts = {"Validated": 0, "Needs Work": 0, "Incorrect": 0}
+    total_global_fields = 0
     
     # Check if the input CSV file exists
     if not os.path.exists(input_csv):
@@ -99,47 +97,43 @@ def main():
             # Print the structured JSON output for the provider.
             print(json.dumps(result, indent=2))
             
-            all_results.append(result)
-            
-            # Process each field's result and count statuses.
-            provider_name = result.get("provider", provider)
-            for field, outcome in result.get("results", {}).items():
-                results_rows.append({
-                    "Provider Name": provider_name,
-                    "Field": field,
-                    "Status": outcome.get("status", ""),
-                    "Message": outcome.get("message", ""),
-                    "Source": "; ".join(outcome.get("source", []))
-                })
-                total_fields += 1
+            # Compute per-provider statistics.
+            provider_results = result.get("results", {})
+            provider_total = len(provider_results)
+            provider_counts = {"Validated": 0, "Needs Work": 0, "Incorrect": 0}
+            for field, outcome in provider_results.items():
                 status = outcome.get("status", "")
-                if status in status_counts:
-                    status_counts[status] += 1
+                if status in provider_counts:
+                    provider_counts[status] += 1
+                total_global_fields += 1
+                if status in global_status_counts:
+                    global_status_counts[status] += 1
+            if provider_total > 0:
+                provider_stats = {k: round((v / provider_total) * 100, 2) for k, v in provider_counts.items()}
+            else:
+                provider_stats = {"Validated": 0, "Needs Work": 0, "Incorrect": 0}
+            # Add provider-level statistics into the result.
+            result["statistics"] = provider_stats
+            
+            all_results.append(result)
     
-    # Compute statistics (percentages)
-    statistics = {}
-    if total_fields > 0:
-        for key, count in status_counts.items():
-            statistics[key] = round((count / total_fields) * 100, 2)
+    # Compute global statistics.
+    global_statistics = {}
+    if total_global_fields > 0:
+        for key, count in global_status_counts.items():
+            global_statistics[key] = round((count / total_global_fields) * 100, 2)
     
-    # Prepare final JSON object including statistics.
+    # Prepare final JSON object including global statistics.
     final_json = {
-        "statistics": statistics,
+        "global_statistics": global_statistics,
         "results": all_results
     }
     
-    # Write the aggregated results to the output CSV file.
-    with open(output_csv, "w", newline="", encoding="utf-8") as outfile:
-        fieldnames = ["Provider Name", "Field", "Status", "Message", "Source"]
-        writer = csv.DictWriter(outfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(results_rows)
-    
-    # Write the full JSON results including statistics.
+    # Write the full JSON results including global and per-provider statistics.
     with open(output_json, "w", encoding="utf-8") as jfile:
         json.dump(final_json, jfile, indent=2)
     
-    logger.info("Validation complete. Results saved to %s and %s", output_csv, output_json)
+    logger.info("Validation complete. JSON results saved to %s", output_json)
 
 if __name__ == "__main__":
     main()

@@ -1,18 +1,49 @@
 {
-  "statistics": {
-    "Validated": 29.52,
-    "Needs Work": 64.76,
-    "Incorrect": 5.71
+  "global_statistics": {
+    "Validated": 66.67,
+    "Needs Work": 13.89,
+    "Incorrect": 19.44
   },
   "results": [
     {
       "provider": "UW Medicine Primary Care at Northgate",
       "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "UW Medicine Primary Care at Northgate offers comprehensive primary care services, including family medicine, internal medicine, and various other primary care specialties.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Incorrect",
+          "message": "The correct hours are Monday-Thursday: 8:00 am - 8:00 pm, Friday: 8:00 am - 5:00 pm, Saturday: 8:30 am - 4:00 pm, Sunday: Closed",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
         "Website": {
           "status": "Validated",
           "message": "The website URL for UW Medicine Primary Care at Northgate is correct.",
           "source": [
             "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email address is provided for UW Medicine Primary Care at Northgate in the search results. The clinic's contact information includes a phone number and physical address, but no email.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate",
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "The address is correct and confirmed by multiple sources.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate",
+            "https://www.mapquest.com/us/washington/uw-medicine-primary-care-at-northgate-284237360",
+            "https://www.zocdoc.com/practice/uw-medicine-primary-care-at-northgate-62619"
           ]
         },
         "Phone": {
@@ -24,125 +55,86 @@
         },
         "Accepting New Patients": {
           "status": "Validated",
-          "message": "Multiple providers at UW Medicine Primary Care at Northgate are accepting new patients, including Karime Bolivar, MD.",
+          "message": "Multiple providers at UW Medicine Primary Care at Northgate are accepting new patients.",
           "source": [
             "https://www.uwmedicine.org/locations/primary-care-northgate"
           ]
         },
-        "Full Address": {
-          "status": "Validated",
-          "message": "The address 314 NE Thornton Pl, Seattle, WA 98125 is correct for UW Medicine Primary Care at Northgate.",
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English is spoken, but additional languages are also available. The clinic offers interpreter services in over 80 languages and dialects, including Amharic, Arabic, Cambodian, Cantonese, Mandarin, Farsi, Korean, Russian, Somali, Spanish, Tigrinya, and Vietnamese.",
           "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate",
-            "https://www.mapquest.com/us/washington/uw-medicine-primary-care-at-northgate-284237360"
-          ]
-        },
-        "Email": {
-          "status": "Validated",
-          "message": "No email address is provided for UW Medicine Primary Care at Northgate in the search results.",
-          "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate"
-          ]
-        },
-        "Probability of validated": {
-          "status": "Validated",
-          "message": "The clinic hours are correct: Monday-Thursday 8am-8pm, Friday 8am-5pm, Saturday 8:30am-4pm, Sunday closed.",
-          "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate"
-          ]
-        },
-        "Opening Hours": {
-          "status": "Incorrect",
-          "message": "The opening hours are Mon-Thu: 8am-8pm, Fri: 8am-5pm, Sat: 8:30am-4pm, Sun: Closed",
-          "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate"
+            "https://www.uwmedicine.org/specialties/primary-care",
+            "https://www.uwmedicine.org/patient-resources/interpreter-services"
           ]
         },
         "Contact Name": {
           "status": "Validated",
           "message": "Dr. Kimberly L. Collins is confirmed as a provider at UW Medicine Primary Care at Northgate.",
           "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate",
-            "https://www.uwmedicine.org/bios/kimberly-collins"
-          ]
-        },
-        "Source": {
-          "status": "Validated",
-          "message": "The address, phone number, and hours of operation are correct for UW Medicine Primary Care at Northgate.",
-          "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate",
-            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
-          ]
-        },
-        "Validated?": {
-          "status": "Validated",
-          "message": "The address, phone number, and hours of operation are correct for UW Medicine Primary Care at Northgate.",
-          "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate",
-            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+            "https://www.uwmedicine.org/bios/kimberly-collins",
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
           ]
         },
         "Cost of Service": {
-          "status": "Needs Work",
-          "message": "The cost of service varies depending on the specific care needed and insurance coverage. Patients can request price estimates prior to visits. UW Medicine offers financial assistance options for those who qualify.",
+          "status": "Validated",
+          "message": "The cost of service varies depending on the specific care needed and insurance coverage. UW Medicine offers price estimate tools and services to help patients understand potential costs.",
           "source": [
-            "https://www.uwmedicine.org/patient-resources/billing-and-insurance/estimate-options",
-            "https://www.uwmedicine.org/locations/primary-care-northgate"
+            "https://www.uwmedicine.org/patient-resources/billing-and-insurance/estimate-options"
           ]
         },
         "Payment Methods": {
           "status": "Validated",
-          "message": "UW Medicine Primary Care at Northgate accepts insurance and self-pay. They also offer financial assistance and discounts for uninsured patients.",
+          "message": "UW Medicine Primary Care at Northgate accepts insurance and self-pay. They also offer financial assistance for those who are uninsured or underinsured.",
           "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate",
-            "https://pprs.doh.wa.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
-          ]
-        },
-        "Languages": {
-          "status": "Needs Work",
-          "message": "While English is certainly offered, the clinic also provides services in multiple other languages. Interpreter services are available for over 80 languages, and some providers speak additional languages like Mandarin Chinese.",
-          "source": [
-            "https://www.uwmedicine.org/patient-resources/interpreter-services",
-            "https://depts.washington.edu/tgnbhealthprogram/provider/ying-zhang/"
+            "https://pprs.doh.wa.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd",
+            "https://www.uwmedicine.org/patient-resources/billing-and-insurance/insurance-and-coverage"
           ]
         },
         "Eligibility": {
           "status": "Incorrect",
-          "message": "The clinic has restrictions on Medicaid acceptance. WA Apple Health (Medicaid) is accepted only for established patients, dependents of established patients, and patients referred by a UW physician.",
+          "message": "UW Medicine Primary Care at Northgate has eligibility restrictions for WA Apple Health (Medicaid) patients. It is only accepted for established patients, dependents of established patients, and patients referred by a UW physician.",
           "source": [
-            "https://pprs.doh.wa.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
-          ]
-        },
-        "Service Type": {
-          "status": "Validated",
-          "message": "UW Medicine Primary Care at Northgate offers comprehensive primary care services, including family medicine, internal medicine, pediatrics, and more.",
-          "source": [
-            "https://www.uwmedicine.org/locations/primary-care-northgate",
-            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+            "https://pprs.doh.wa.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd",
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
           ]
         }
+      },
+      "statistics": {
+        "Validated": 75.0,
+        "Needs Work": 8.33,
+        "Incorrect": 16.67
       }
     },
     {
       "provider": "Swedish First Hill Primary Care",
       "results": {
-        "Cost of Service": {
+        "Service Type": {
           "status": "Validated",
-          "message": "The cost of $99 for visits is confirmed on the Swedish First Hill Primary Care webpage.",
+          "message": "Swedish First Hill Primary Care provides primary care services for adults, including internal medicine and preventive care.",
           "source": [
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+            "https://www.swedish.org/locations/first-hill-primary-care?Is=location"
           ]
         },
-        "Opening Hours": {
+        "Contact Name": {
           "status": "Validated",
-          "message": "The opening hours Mon-Fri: 8am-5pm are correct for Swedish First Hill Primary Care.",
+          "message": "No specific contact name is provided for Swedish First Hill Primary Care. The clinic is referred to generally without naming individual contacts.",
           "source": [
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
+            "https://citysquares.com/b/swedish-first-hill-primary-care-24007145"
           ]
         },
         "Phone": {
           "status": "Incorrect",
           "message": "The correct phone number for Swedish First Hill Primary Care is 206-386-9505.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
+            "https://doctor.webmd.com/practice/swedish-first-hill-primary-care-ste-65c7f7fe-c59b-4b09-b98e-b98870d7f8d6"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email address is provided for Swedish First Hill Primary Care in the search results. The clinic's contact information includes phone numbers but no email.",
           "source": [
             "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
           ]
@@ -156,119 +148,79 @@
         },
         "Accepting New Patients": {
           "status": "Needs Work",
-          "message": "The search results do not explicitly state whether Swedish First Hill Primary Care is accepting new patients. However, they encourage calling to schedule an appointment, which suggests they may be accepting new patients.",
+          "message": "The search results do not explicitly state whether Swedish First Hill Primary Care is accepting new patients. However, the clinic's contact information and hours are provided, suggesting patients can call to inquire about appointments.",
           "source": [
             "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
           ]
         },
-        "Eligibility": {
-          "status": "Incorrect",
-          "message": "Swedish First Hill Primary Care provides health care services for adults only, not for all ages.",
-          "source": [
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-          ]
-        },
-        "Probability of validated": {
-          "status": "Needs Work",
-          "message": "The phone number is correct, but the hours are outdated. Current hours are Mon-Fri: 8 a.m. - 5 p.m.",
-          "source": [
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
-          ]
-        },
-        "Source": {
+        "Cost of Service": {
           "status": "Validated",
-          "message": "The address, phone number, and fax number are correct. The clinic provides primary care services for adults and is open Monday to Friday from 8 a.m. to 5 p.m.",
+          "message": "The cost information is correct. Swedish First Hill Primary Care offers visits starting at $99.",
           "source": [
-            "https://www.swedish.org/locations/first-hill-primary-care",
             "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
           ]
         },
         "Payment Methods": {
           "status": "Validated",
-          "message": "Swedish First Hill Primary Care accepts both insurance and self-pay options. They work with various insurance providers and also offer a Self-Pay Program for uninsured or underinsured patients.",
+          "message": "Swedish First Hill Primary Care accepts both insurance and self-pay options. They take most private insurers and Medicare plans, and offer a Self-Pay Program for uninsured or underinsured patients.",
           "source": [
             "https://www.swedish.org/locations/ballard-campus/family-medicine-ballard/faqs",
             "https://www.swedish.org/insurance-providers"
           ]
         },
-        "Validated?": {
+        "Eligibility": {
           "status": "Validated",
-          "message": "The clinic hours are confirmed as Monday to Friday, 8 a.m. - 5 p.m.",
+          "message": "The eligibility information is correct. Swedish First Hill Primary Care has no restrictions on eligibility, which aligns with being open to all.",
           "source": [
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
-            "https://www.swedish.org/locations/first-hill-primary-care?Is=location"
+            "https://find-human-services.kingcounty.gov/search/1b7018ef-8a92-5f44-ac1b-beccc2e0d8d4"
           ]
         },
-        "Contact Name": {
+        "Opening Hours": {
           "status": "Validated",
-          "message": "No specific contact name is provided for Swedish First Hill Primary Care. The clinic is listed with general contact information only.",
+          "message": "The opening hours Mon-Fri: 8am-5pm are correct for Swedish First Hill Primary Care.",
           "source": [
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
-            "https://www.healthgrades.com/group-directory/wa-washington/seattle/swedish-first-hill-primary-care-x86n5lg"
-          ]
-        },
-        "Languages": {
-          "status": "Needs Work",
-          "message": "While English is likely offered, the provider supports many more languages. In-person interpreters are available for over 100 languages and dialects, and telephone interpreters for over 200 languages.",
-          "source": [
-            "https://www.swedish.org/patients-and-visitors/interpreter-services"
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
           ]
         },
         "Full Address": {
           "status": "Incorrect",
           "message": "The correct address for Swedish First Hill Primary Care is 515 Minor Ave, Suite 300, Seattle, Washington 98104.",
           "source": [
-            "https://www.swedish.org/locations/first-hill-primary-care",
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+            "https://www.swedish.org/locations/first-hill-primary-care"
           ]
         },
-        "Email": {
-          "status": "Validated",
-          "message": "No email address is provided for Swedish First Hill Primary Care in the search results. The clinic's contact information includes phone numbers but not an email.",
+        "Languages": {
+          "status": "Needs Work",
+          "message": "While English is likely spoken, the search results indicate multiple languages are used. The Cherry Hill Clinic, which is part of Swedish, serves a diverse population with over 30 languages spoken.",
           "source": [
-            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
-            "https://doctor.webmd.com/practice/swedish-first-hill-primary-care-ste-65c7f7fe-c59b-4b09-b98e-b98870d7f8d6"
-          ]
-        },
-        "Service Type": {
-          "status": "Validated",
-          "message": "Swedish First Hill Primary Care provides primary care services for adults, including internal medicine, preventive care, and chronic disease management.",
-          "source": [
-            "https://www.swedish.org/locations/first-hill-primary-care?Is=location"
+            "https://www.swedishcherryhillfmr.org/programs/fmr-cherryhill/sites/cherry-hill"
           ]
         }
+      },
+      "statistics": {
+        "Validated": 66.67,
+        "Needs Work": 16.67,
+        "Incorrect": 16.67
       }
     },
     {
       "provider": "Wise Patient Internal Medicine",
       "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Wise Patient Internal Medicine specializes in Internal Medicine and provides primary care services.",
+          "source": [
+            "https://imwisepatient.com/our-providers/",
+            "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
+          ]
+        },
         "Contact Name": {
           "status": "Validated",
-          "message": "Janna Cuneo, NP is confirmed as a provider at Wise Patient Internal Medicine and is currently accepting new patients.",
+          "message": "Janna Cuneo, NP is confirmed as a current provider at Wise Patient Internal Medicine.",
           "source": [
             "https://imwisepatient.com",
-            "https://imwisepatient.com/our-providers/"
-          ]
-        },
-        "Email": {
-          "status": "Validated",
-          "message": "The email address waitlist@wisepatientim.com is correct for contacting Wise Patient Internal Medicine about becoming a new patient.",
-          "source": [
-            "https://imwisepatient.com"
-          ]
-        },
-        "Accepting New Patients": {
-          "status": "Validated",
-          "message": "Janna Cuneo, NP, Nazlee Navabi, MD, and David Roesel, MD are currently accepting new patients at Wise Patient Internal Medicine.",
-          "source": [
-            "https://imwisepatient.com"
-          ]
-        },
-        "Opening Hours": {
-          "status": "Needs Work",
-          "message": "The hours are partially correct but need updating. Monday-Thursday: 8:00am-5:00pm, Friday: 8:30am-4:00pm, Saturday-Sunday: Closed.",
-          "source": [
-            "https://imwisepatient.com/contact-us/"
+            "https://imwisepatient.com/our-providers/",
+            "https://imwisepatient.com/janna-cuneo/"
           ]
         },
         "Phone": {
@@ -279,19 +231,10 @@
             "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
           ]
         },
-        "Full Address": {
-          "status": "Incorrect",
-          "message": "The correct address is 613 19th Ave E Ste 201, Seattle, WA 98112.",
+        "Email": {
+          "status": "Validated",
+          "message": "The email address waitlist@wisepatientim.com is correct for contacting Wise Patient Internal Medicine about becoming a new patient.",
           "source": [
-            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa",
-            "https://imwisepatient.com/contact-us/"
-          ]
-        },
-        "Languages": {
-          "status": "Needs Work",
-          "message": "While English is likely spoken, the search results do not explicitly confirm languages offered. Additional languages may be available.",
-          "source": [
-            "https://imwisepatient.com/our-providers/",
             "https://imwisepatient.com"
           ]
         },
@@ -303,384 +246,63 @@
             "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
           ]
         },
-        "Eligibility": {
-          "status": "Needs Work",
-          "message": "Wise Patient Internal Medicine is not open to all. Only specific providers are currently accepting new patients, and there are waitlists for some doctors.",
-          "source": [
-            "https://imwisepatient.com"
-          ]
-        },
-        "Service Type": {
+        "Accepting New Patients": {
           "status": "Validated",
-          "message": "Wise Patient Internal Medicine specializes in Internal Medicine.",
+          "message": "Wise Patient Internal Medicine is accepting new patients for providers Janna Cuneo, NP, Nazlee Navabi, MD, and David Roesel, MD.",
           "source": [
-            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa",
-            "https://imwisepatient.com/our-providers/"
-          ]
-        },
-        "Payment Methods": {
-          "status": "Validated",
-          "message": "Wise Patient Internal Medicine accepts both insurance and self-pay options. They offer a Direct Primary Care membership for $149/month as a self-pay option, and also work with insurance plans.",
-          "source": [
-            "https://imwisepatient.com/membership-benefits/",
-            "https://imwisepatient.com/direct-primary-care/"
-          ]
-        },
-        "Validated?": {
-          "status": "Validated",
-          "message": "Wise Patient Internal Medicine is located at 613 19th Ave E Ste 201, Seattle, WA 98112. They specialize in Internal Medicine and offer telehealth services.",
-          "source": [
-            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa",
-            "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
+            "https://imwisepatient.com",
+            "https://mapper.dpcfrontier.com/practice/nqnvsjmjcbec"
           ]
         },
         "Cost of Service": {
-          "status": "Needs Work",
-          "message": "The cost of service for Wise Patient Internal Medicine is $149/month for Direct Primary Care memberships as of October 2024, but this may not be the most current rate.",
+          "status": "Incorrect",
+          "message": "The cost of service for Wise Patient Internal Medicine is $149/month for Direct Primary Care memberships and $131/month for Medicare Concierge memberships.",
           "source": [
             "https://imwisepatient.com/direct-primary-care/membership-pricing-faqs/"
           ]
         },
-        "Source": {
+        "Payment Methods": {
           "status": "Validated",
-          "message": "The address 613 19th Ave E Ste 201, Seattle, WA 98112 is correct for Wise Patient Internal Medicine.",
+          "message": "Wise Patient Internal Medicine accepts both insurance and self-pay options. They have a monthly membership fee of $149 for Direct Primary Care, and also accept most major medical insurances.",
+          "source": [
+            "https://imwisepatient.com/membership-benefits/"
+          ]
+        },
+        "Eligibility": {
+          "status": "Incorrect",
+          "message": "Not all providers at Wise Patient Internal Medicine are currently accepting new patients. Only Janna Cuneo, NP, Nazlee Navabi, MD, and David Roesel, MD are accepting new patients. For Sam Warren, MD and Rachel Beda, MD, there is a waitlist.",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Needs Work",
+          "message": "The hours are partially correct but need updating. Monday-Thursday: 8:00am-5:00pm, Friday: 8:30am-4:00pm, Saturday-Sunday: Closed.",
+          "source": [
+            "https://imwisepatient.com/contact-us/"
+          ]
+        },
+        "Full Address": {
+          "status": "Incorrect",
+          "message": "The correct address is 613 19th Ave E Ste 201, Seattle, WA 98112",
           "source": [
             "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa",
             "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
           ]
         },
-        "Probability of validated": {
-          "status": "Validated",
-          "message": "Wise Patient Internal Medicine is located at 613 19th Ave E Ste 201, Seattle, WA 98112.",
+        "Languages": {
+          "status": "Needs Work",
+          "message": "While English is likely spoken, the search results do not explicitly confirm this. Additional languages may be offered, as one provider speaks Spanish.",
           "source": [
-            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa",
-            "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
+            "https://imwisepatient.com/our-providers/",
+            "https://imwisepatient.com"
           ]
         }
-      }
-    },
-    {
-      "provider": "The Polyclinic",
-      "results": {
-        "Payment Methods": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Languages": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Website": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Full Address": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Phone": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Contact Name": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Cost of Service": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Accepting New Patients": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Eligibility": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Source": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Probability of validated": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Service Type": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Validated?": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Email": {
-          "status": "Validated",
-          "message": "No email address is provided for The Polyclinic on their contact page. They offer phone numbers for general inquiries and specific departments.",
-          "source": [
-            "https://www.polyclinic.com/about/contact-us.html"
-          ]
-        },
-        "Opening Hours": {
-          "status": "Needs Work",
-          "message": "The provided hours are partially correct but incomplete. The search results indicate more detailed operating hours, including different times for appointments and walk-ins, as well as Saturday hours.",
-          "source": [
-            "https://polyclinic.singhealth.com.sg/patient-care/our-polyclinics"
-          ]
-        }
-      }
-    },
-    {
-      "provider": "Virginia Mason Medical Center",
-      "results": {
-        "Website": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Payment Methods": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Accepting New Patients": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Service Type": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Eligibility": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Email": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Phone": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Validated?": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Source": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Languages": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Opening Hours": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Full Address": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Probability of validated": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Cost of Service": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Contact Name": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        }
-      }
-    },
-    {
-      "provider": "Franciscan Medical Clinic - West Seattle",
-      "results": {
-        "Service Type": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Website": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Contact Name": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Source": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Email": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Probability of validated": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Opening Hours": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Languages": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Phone": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Eligibility": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Validated?": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Accepting New Patients": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Payment Methods": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Cost of Service": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Full Address": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        }
-      }
-    },
-    {
-      "provider": "EvergreenHealth",
-      "results": {
-        "Eligibility": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Phone": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Accepting New Patients": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Email": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Cost of Service": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Service Type": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Contact Name": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Opening Hours": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Probability of validated": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Validated?": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Payment Methods": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Full Address": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Languages": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Source": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        },
-        "Website": {
-          "status": "Needs Work",
-          "message": "Error validating this field.",
-          "source": []
-        }
+      },
+      "statistics": {
+        "Validated": 58.33,
+        "Needs Work": 16.67,
+        "Incorrect": 25.0
       }
     }
   ]
