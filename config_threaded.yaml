@@ -1,0 +1,21 @@
+# Default validation strategy: "batch" (one API call for all fields) or "threaded" (one API call per field)
+default_strategy: threaded
+
+# Perplexity API settings
+perplexity_api_url: "https://api.perplexity.ai/chat/completions"
+perplexity_model: "sonar-pro"
+
+# Data file settings
+data:
+  input_csv: "data/seagent_data_mini.csv"
+  output_csv: "mini_results_threaded.csv"
+  
+# (Optional) List fields you do NOT want to validate.
+# By default, the "Provider Name" column is used as the key and is skipped.
+validation:
+  fields_to_skip:
+    - "Provider Name"
+
+# Logging settings
+logging:
+  level: "INFO"

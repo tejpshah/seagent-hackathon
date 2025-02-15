@@ -1,5 +1,0 @@
-default_strategy: batch  # Options: "batch" or "threaded"
-perplexity_api_url: "https://api.perplexity.ai/chat/completions"
-perplexity_model: "sonar-pro"
-logging:
-  level: "INFO"
