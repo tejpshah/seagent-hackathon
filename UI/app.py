@@ -2,42 +2,50 @@ import streamlit as st
 import json
 import pandas as pd
 
+# Load JSON Data
+def load_json(file_path):
+    with open(file_path, "r") as file:
+        return json.load(file)
 
-# Open and load the JSON file
-with open("../results/mini_results_batch.json", "r") as file:
-    data = json.load(file)
-    
-# Streamlit UI
-st.set_page_config(page_title="Healthcare Provider Dashboard", layout="wide")
-st.title("🏥 Healthcare Provider Validation Dashboard")
+# Convert JSON to DataFrame with Status Columns
+def json_to_dataframe(data):
+    provider_data = []
 
-# Sidebar
-st.sidebar.header("Filters")
-selected_provider = st.sidebar.selectbox("Select Provider", [item["provider"] for item in data])
+    for entry in data["results"]:
+        provider_name = entry["provider"]
+        row = {"Provider": provider_name}
 
-# Get selected provider data
-provider_data = next(item for item in data if item["provider"] == selected_provider)
-st.subheader(f"📍 {provider_data['provider']}")
+        for field, details in entry["results"].items():
+            row[field] = details["message"]  # Extract the message
+            row[f"{field}_status"] = details["status"]  # Extract the status for coloring
 
-# Convert data to DataFrame for better display
-records = []
-for field, details in provider_data["results"].items():
-    records.append([field, details["status"], details["message"], details["source"][0]])
+        provider_data.append(row)
 
-df = pd.DataFrame(records, columns=["Field", "Status", "Message", "Source"])
+    return pd.DataFrame(provider_data)
 
-# Color coding status
-def highlight_status(row):
-    color = "lightgreen" if row.Status == "Validated" else "salmon"
-    return [f"background-color: {color}"] * len(row)
+# Load Data
+json_file = "../results/mini_results_batch.json"  # Update path if needed
+data = load_json(json_file)
+df = json_to_dataframe(data)
 
-st.dataframe(df.style.apply(highlight_status, axis=1), use_container_width=True)
+# Function to Apply Cell Colors
+def apply_cell_color(val):
+    if isinstance(val, str):
+        if "Validated" in val:
+            return "background-color: #d4edda;"  # Green
+        elif "Needs Work" in val:
+            return "background-color: #fff3cd;"  # Yellow
+        elif "Incorrect" in val:
+            return "background-color: #f8d7da;"  # Red
+    return ""
 
-# Show details
-for _, row in df.iterrows():
-    with st.expander(f"🔹 {row['Field']}"):
-        st.write(f"**Status:** {row['Status']}")
-        st.write(f"**Message:** {row['Message']}")
-        st.markdown(f"[🔗 Source]({row['Source']})")
+# Streamlit App
+st.set_page_config(page_title="Healthcare Data Dashboard", layout="wide")
+st.title("🏥 Healthcare Data Dashboard")
+st.write("This table displays provider data with validation messages. Cells are color-coded based on status.")
 
-st.success("✅ Data processing complete!")
+# Apply cell coloring
+styled_df = df.style.applymap(apply_cell_color, subset=[col for col in df.columns if "_status" in col])
+
+# Display Styled DataFrame
+st.dataframe(styled_df)
