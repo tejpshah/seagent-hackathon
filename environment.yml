@@ -1,21 +1,23 @@
-name: base
+name: my_custom_env
 channels:
-  - pytorch
   - conda-forge
-  - defaults
 dependencies:
-  - python=3.11
-  - conda==24.1.2
-  - setuptools
-  - pip
-  - wheel
   - conda-content-trust
   - conda-libmamba-solver
-  - python.app
+  - conda==24.1.2
+  - cpuonly
   - jupyterlab
-  - scipy
   - matplotlib
   - numpy
-  - cpuonly
+  - pip
+  - python.app
+  - python=3.11
   - pytorch
+  - scipy
+  - setuptools
   - torchvision
+  - wheel
+  - pandas
+  - pydantic
+  - python-dotenv
+
