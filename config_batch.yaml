@@ -1,4 +1,4 @@
-# Default validation strategy: "batch" (one API call for all fields) or "threaded" (one API call per field)
+# Default validation strategy: "batch" (one API call for all fields)
 default_strategy: batch
 
 # Perplexity API settings
@@ -8,14 +8,14 @@ perplexity_model: "sonar-pro"
 # Data file settings
 data:
   input_csv: "data/seagent_data_mini.csv"
-  output_csv: "mini_results_batched.csv"
+  output_csv_csv: "results/mini_results_batch.csv"
+  output_csv_json: "results/mini_results_batch.json"
   
 # (Optional) List fields you do NOT want to validate.
-# By default, the "Provider Name" column is used as the key and is skipped.
 validation:
   fields_to_skip:
     - "Provider Name"
 
-# Logging settings
+# Logging settings (set to DEBUG for verbose logging)
 logging:
-  level: "INFO"
+  level: "DEBUG"

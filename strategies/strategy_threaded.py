@@ -8,10 +8,10 @@ logger = logging.getLogger(__name__)
 def validate_provider_threaded(provider: str, fields: dict, client) -> dict:
     """
     Validate each field in its own thread.
-    :param provider: Provider name.
-    :param fields: Dictionary of field names to current values.
-    :param client: Instance of PerplexityClient.
-    :return: Structured JSON dictionary.
+    Returns a JSON object with each field having:
+      - status: "Validated", "Needs Work", or "Incorrect"
+      - message: supplementary guidance
+      - source: list of URL strings from Perplexity response
     """
     results = {}
     threads = []
@@ -21,10 +21,13 @@ def validate_provider_threaded(provider: str, fields: dict, client) -> dict:
         prompt = (
             f"Validate the following detail for provider '{provider}':\n"
             f"{field}: {value}\n\n"
-            "Determine if the value is verified as 'yes', 'needs attention', or 'no', "
-            "and provide a short supplementary message. "
+            "Determine if the provided value is:\n"
+            "  - Validated (if it is correct),\n"
+            "  - Needs Work (if it appears outdated or partially correct), or\n"
+            "  - Incorrect (if it is wrong).\n\n"
+            "Also, provide a short supplementary message and include the relevant source URL(s) from which the information was obtained.\n\n"
             "Output a JSON object with the following format:\n"
-            '{"status": "<yes|needs attention|no>", "message": "<supplementary guidance>"}\n'
+            '{"status": "<Validated|Needs Work|Incorrect>", "message": "<supplementary guidance>", "source": ["<url1>", "<url2>", ...]}\n'
             "Only output the JSON object."
         )
         # Use the FieldResult model JSON schema.
@@ -39,7 +42,7 @@ def validate_provider_threaded(provider: str, fields: dict, client) -> dict:
             result = json.loads(response_content)
         except Exception as e:
             logger.error("Error validating field '%s': %s", field, e, exc_info=True)
-            result = {"status": "needs attention", "message": "Error validating this field."}
+            result = {"status": "Needs Work", "message": "Error validating this field.", "source": []}
         with lock:
             results[field] = result
     

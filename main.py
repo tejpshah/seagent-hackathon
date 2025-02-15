@@ -24,7 +24,7 @@ def main():
     parser.add_argument(
         "--config",
         type=str,
-        default="config.yaml",
+        default="config_batch.yaml",
         help="Path to the YAML configuration file."
     )
     parser.add_argument(
@@ -54,18 +54,24 @@ def main():
     client = PerplexityClient(api_key, api_url, model)
     
     # Determine the validation strategy:
-    # Command-line argument takes precedence; otherwise, use default from config.
     strategy = args.strategy if args.strategy else config.get("default_strategy", "batch")
     
     # Get data file paths from config
     input_csv = config.get("data", {}).get("input_csv", "data/seagent_healthcare_data.csv")
-    output_csv = config.get("data", {}).get("output_csv", "results.csv")
+    output_csv = config.get("data", {}).get("output_csv_csv", "results/results.csv")
+    output_json = config.get("data", {}).get("output_csv_json", "results/results.json")
     
     # Optionally, get a list of fields to skip (like the "Provider Name")
     fields_to_skip = config.get("validation", {}).get("fields_to_skip", ["Provider Name"])
     
-    # Prepare to accumulate results for CSV output.
+    # Ensure the results folder exists.
+    results_folder = os.path.dirname(output_csv)
+    if not os.path.exists(results_folder):
+        os.makedirs(results_folder)
+    
+    # Prepare to accumulate results for CSV and JSON output.
     results_rows = []
+    all_results = []
     
     # Check if the input CSV file exists
     if not os.path.exists(input_csv):
@@ -91,25 +97,31 @@ def main():
             # Print the structured JSON output for the provider.
             print(json.dumps(result, indent=2))
             
+            all_results.append(result)
+            
             # Append each field's result to our results list.
-            # Expected format: { "provider": provider, "results": { field: { "status": ..., "message": ... } } }
             provider_name = result.get("provider", provider)
             for field, outcome in result.get("results", {}).items():
                 results_rows.append({
                     "Provider Name": provider_name,
                     "Field": field,
                     "Status": outcome.get("status", ""),
-                    "Message": outcome.get("message", "")
+                    "Message": outcome.get("message", ""),
+                    "Source": "; ".join(outcome.get("source", []))
                 })
     
     # Write the aggregated results to the output CSV file.
     with open(output_csv, "w", newline="", encoding="utf-8") as outfile:
-        fieldnames = ["Provider Name", "Field", "Status", "Message"]
+        fieldnames = ["Provider Name", "Field", "Status", "Message", "Source"]
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(results_rows)
     
-    logger.info("Validation complete. Results saved to %s", output_csv)
+    # Write the full JSON results.
+    with open(output_json, "w", encoding="utf-8") as jfile:
+        json.dump(all_results, jfile, indent=2)
+    
+    logger.info("Validation complete. Results saved to %s and %s", output_csv, output_json)
 
 if __name__ == "__main__":
     main()

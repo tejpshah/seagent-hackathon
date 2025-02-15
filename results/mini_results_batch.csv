@@ -1,0 +1,85 @@
+Provider Name,Field,Status,Message,Source
+UW Medicine Primary Care at Northgate,Service Type,Validated,Confirmed as Primary Care,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Contact Name,Needs Work,Dr. Kimberly L. Collins is one of multiple providers at this location,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Phone,Validated,Confirmed as 206-528-8000,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Email,Validated,"No email provided, which is correct",https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Website,Validated,Confirmed as correct,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Accepting New Patients,Validated,Confirmed as accepting new patients,https://www.healthgrades.com/physician/dr-kimberly-collins-xr6vr
+UW Medicine Primary Care at Northgate,Cost of Service,Validated,Varies based on insurance and services,https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+UW Medicine Primary Care at Northgate,Payment Methods,Validated,Accepts insurance and self-pay,https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+UW Medicine Primary Care at Northgate,Eligibility,Validated,No restrictions mentioned,https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd
+UW Medicine Primary Care at Northgate,Opening Hours,Incorrect,"Hours are Mon-Thu 8am-8pm, Fri 8am-5pm, Sat 8:30am-4pm, Sun Closed",https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Full Address,Validated,Confirmed as correct,https://www.uwmedicine.org/locations/primary-care-northgate
+UW Medicine Primary Care at Northgate,Languages,Needs Work,"English confirmed, but other languages may be available",https://www.uwmedicine.org/locations/primary-care-northgate
+Swedish First Hill Primary Care,Service Type,Validated,Confirmed as Primary Care,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Contact Name,Validated,Not specified in the search results,
+Swedish First Hill Primary Care,Phone,Incorrect,Phone number is 206-386-9505,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Email,Validated,Not provided in the search results,
+Swedish First Hill Primary Care,Website,Validated,Correct website provided,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Accepting New Patients,Needs Work,"Not explicitly stated, but they invite scheduling appointments",https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Cost of Service,Validated,Visits start at $99 for online care,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Payment Methods,Validated,Accepts insurance and self-pay,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Eligibility,Needs Work,Provides health care services for adults,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Opening Hours,Validated,Confirmed as Mon - Fri: 8 a.m. - 5 p.m.,https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Full Address,Incorrect,"Correct address is 515 Minor Ave, Suite 300, Seattle, Washington 98104",https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care
+Swedish First Hill Primary Care,Languages,Needs Work,"English is likely offered, but specific language information not provided",
+Wise Patient Internal Medicine,Service Type,Validated,Confirmed as Internal Medicine,https://doctor.webmd.com/practice/wise-patient-internal-medicine-47c8c45d-bc62-4431-8ea2-4c89d1cb91d9
+Wise Patient Internal Medicine,Contact Name,Validated,"Janna Cuneo, NP is listed as a provider",https://imwisepatient.com/janna-cuneo/
+Wise Patient Internal Medicine,Phone,Validated,Confirmed as 206-466-5937,https://imwisepatient.com/contact-us/
+Wise Patient Internal Medicine,Email,Validated,waitlist@wisepatientim.com is correct for new patient inquiries,https://imwisepatient.com
+Wise Patient Internal Medicine,Website,Validated,Confirmed as https://imwisepatient.com/,https://imwisepatient.com
+Wise Patient Internal Medicine,Accepting New Patients,Validated,Confirmed accepting new patients,https://imwisepatient.com
+Wise Patient Internal Medicine,Cost of Service,Needs Work,"Operates on a low monthly fee model, but specific costs not provided",https://imwisepatient.com
+Wise Patient Internal Medicine,Payment Methods,Incorrect,"Operates as Direct Primary Care, not traditional insurance model",https://imwisepatient.com
+Wise Patient Internal Medicine,Eligibility,Validated,"Open to all, no restrictions mentioned",https://imwisepatient.com
+Wise Patient Internal Medicine,Opening Hours,Needs Work,"Hours are Mon-Fri: 8am-5pm, with slight variation on Friday",https://imwisepatient.com/contact-us/
+Wise Patient Internal Medicine,Full Address,Incorrect,"Correct address is 613 19th Ave E Ste 201, Seattle, WA 98112",https://imwisepatient.com/contact-us/
+Wise Patient Internal Medicine,Languages,Needs Work,"English confirmed, but Spanish and Vietnamese also listed",https://doctor.webmd.com/practice/wise-patient-internal-medicine-47c8c45d-bc62-4431-8ea2-4c89d1cb91d9
+The Polyclinic,Service Type,Validated,Multi-specialty care confirmed,https://www.polyclinic.com/about/about-us.html
+The Polyclinic,Contact Name,Validated,No specific contact name provided,https://www.polyclinic.com/about/contact-us.html
+The Polyclinic,Phone,Needs Work,General inquiries: 1-206-329-1760 or toll free 1-800-648-8837,https://www.polyclinic.com/about/contact-us.html
+The Polyclinic,Email,Validated,"No email provided, but MyChart messaging available",https://www.polyclinic.com/about/contact-us.html
+The Polyclinic,Website,Validated,Correct provider lookup URL,https://www.polyclinic.com/provider-lookup.html
+The Polyclinic,Accepting New Patients,Validated,New patient appointments available,https://www.polyclinic.com/resources/mychart-appointments.html
+The Polyclinic,Cost of Service,Validated,Varies depending on service and insurance,https://www.polyclinic.com/about/contact-us.html
+The Polyclinic,Payment Methods,Needs Work,"Accepts most major health plans, specific payment methods not listed",https://www.polyclinic.com/about/contact-us.html
+The Polyclinic,Eligibility,Validated,Open to all patients,https://www.polyclinic.com/about/about-us.html
+The Polyclinic,Opening Hours,Needs Work,"General inquiries open daily 7 am–5 pm, specific clinic hours may vary",https://www.polyclinic.com/about/contact-us.html
+The Polyclinic,Full Address,Validated,"Multiple locations in Seattle, WA area",https://www.polyclinic.com/about/about-us.html
+The Polyclinic,Languages,Needs Work,"English confirmed, other languages not specified",https://www.polyclinic.com/about/about-us.html
+Virginia Mason Medical Center,Service Type,Validated,Multi-specialty care is provided,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Contact Name,Validated,No specific contact name provided,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Phone,Incorrect,Main phone number is 206-624-1144,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Email,Validated,No general email provided,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Website,Incorrect,Correct website is https://www.vmfh.org/our-hospitals/virginia-mason-medical-center,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Accepting New Patients,Needs Work,"Not explicitly stated, but appointments can be scheduled",https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Cost of Service,Validated,Costs vary depending on service,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Payment Methods,Needs Work,"Insurance accepted, but self-pay not explicitly mentioned",https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Eligibility,Validated,Open to all patients,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Opening Hours,Incorrect,Specific hours not provided for the main hospital,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Full Address,Validated,Address is correct,https://www.vmfh.org/our-hospitals/virginia-mason-medical-center
+Virginia Mason Medical Center,Languages,Needs Work,"English provided, but interpreter services available for other languages",https://www.vmfh.org/patient-and-visitor-information/language-and-interpreter-services
+Franciscan Medical Clinic - West Seattle,Service Type,Validated,Confirmed as Primary Care,https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b
+Franciscan Medical Clinic - West Seattle,Contact Name,Needs Work,"Michel (Marty) Couret is a provider, not the main contact",https://www.vmfh.org/find-a-doctor/family-medicine/michel-marty-couret-1699768648
+Franciscan Medical Clinic - West Seattle,Phone,Incorrect,Phone number is (206) 933-1041,https://search.wa211.org/search/a95fdd0a-f328-5031-ba46-186ccc7867b4
+Franciscan Medical Clinic - West Seattle,Email,Validated,No email provided in sources,
+Franciscan Medical Clinic - West Seattle,Website,Validated,Correct website provided,https://resources.helpmegrowwa.org/search/69058331-d400-5b60-b923-62cd9aa05758
+Franciscan Medical Clinic - West Seattle,Accepting New Patients,Validated,Confirmed accepting new patients,https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b
+Franciscan Medical Clinic - West Seattle,Cost of Service,Validated,Accepts insurance and offers sliding scale,https://resources.helpmegrowwa.org/search/3246a0d4-6362-5424-ac56-1bd48ad14ebd
+Franciscan Medical Clinic - West Seattle,Payment Methods,Validated,Accepts insurance and self-pay,https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b
+Franciscan Medical Clinic - West Seattle,Eligibility,Validated,No restrictions mentioned,https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b
+Franciscan Medical Clinic - West Seattle,Opening Hours,Needs Work,"Hours are M-Th 7am-6pm, F 7am-5pm",https://ccwa.doh.wa.gov/search/59033632-8cd6-5ceb-986d-b0e30c4b5a4b
+Franciscan Medical Clinic - West Seattle,Full Address,Validated,Correct address confirmed,https://search.wa211.org/search/a95fdd0a-f328-5031-ba46-186ccc7867b4
+Franciscan Medical Clinic - West Seattle,Languages,Needs Work,Spanish also offered,https://www.healthgrades.com/group-directory/wa-washington/seattle/franciscan-medical-clinic-west-seattle-xbnk7n
+EvergreenHealth,Service Type,Validated,General healthcare provider,https://www.evergreenhealth.com
+EvergreenHealth,Contact Name,Incorrect,"No specific contact name provided, but Patient Relations can be contacted",https://www.evergreenhealth.com/patients-visitors/after-your-visit/express-a-concern/
+EvergreenHealth,Phone,Incorrect,Main phone number is (425) 899-1000,http://www.wsha.org/members/evergreenhealth/
+EvergreenHealth,Email,Incorrect,"General email not provided, but Patient Relations email is patientrep@evergreenhealth.com",https://www.evergreenhealth.com/patients-visitors/after-your-visit/express-a-concern/
+EvergreenHealth,Website,Incorrect,Correct website is https://www.evergreenhealth.com,https://www.evergreenhealth.com
+EvergreenHealth,Accepting New Patients,Needs Work,"Varies by department, primary care is accepting new patients",https://evergreenhealth.org/patient-resources/faq-3/
+EvergreenHealth,Cost of Service,Validated,Costs vary depending on service and insurance,https://evergreenhealth.org/patient-resources/faq-3/
+EvergreenHealth,Payment Methods,Validated,Accepts insurance and self-pay,https://evergreenhealth.org/patient-resources/faq-3/
+EvergreenHealth,Eligibility,Validated,Open to all patients,https://www.evergreenhealth.com
+EvergreenHealth,Opening Hours,Incorrect,Hours vary by department and service,https://www.evergreenhealth.com/patients-visitors/after-your-visit/express-a-concern/
+EvergreenHealth,Full Address,Validated,"12040 NE 128th St, Kirkland, WA 98034",http://www.wsha.org/members/evergreenhealth/
+EvergreenHealth,Languages,Needs Work,Offers language assistance and interpreter services beyond English,https://www.evergreenhealth.com/patients-visitors/during-your-visit/language-assistance-interpreter-services/

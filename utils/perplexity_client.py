@@ -1,5 +1,6 @@
 import requests
 import logging
+import json
 
 logger = logging.getLogger(__name__)
 
@@ -22,10 +23,18 @@ class PerplexityClient:
             ],
             "response_format": response_format
         }
+        
+        if logger.isEnabledFor(logging.DEBUG):
+            logger.debug("Request payload: %s", json.dumps(payload, indent=2))
+        
         try:
             response = requests.post(self.api_url, headers=headers, json=payload, timeout=timeout)
             response.raise_for_status()
             json_response = response.json()
+            
+            if logger.isEnabledFor(logging.DEBUG):
+                logger.debug("Response payload: %s", json.dumps(json_response, indent=2))
+                
             content = json_response["choices"][0]["message"]["content"]
             return content
         except Exception as e:
