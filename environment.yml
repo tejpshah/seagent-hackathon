@@ -1,0 +1,21 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - conda==24.1.2
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - python.app
+  - jupyterlab
+  - scipy
+  - matplotlib
+  - numpy
+  - cpuonly
+  - pytorch
+  - torchvision
+prefix: /Users/tejshah/miniconda3
