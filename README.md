@@ -19,8 +19,7 @@
 2. **Create and Activate a Virtual Environment (Optional):**
    Using Conda:
    ```bash
-   conda create -n seagent python=3.x
-   conda activate seagent
+   conda env create -n seagent -f environment.yml   
    ```
    Or using venv:
    ```bash
