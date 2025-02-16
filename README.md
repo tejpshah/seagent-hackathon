@@ -76,7 +76,7 @@ flowchart TD
     C -- Yes --> D[Select CSV from data folder]
     C -- No --> E[Upload CSV File]
     D & E --> F[Process CSV via Validation Module]
-    F --> G[Call Perplexity API (Batch/Threaded)]
+    F --> G[Call Perplexity API - Batch/Threaded]
     G --> H[Generate JSON Results]
     H --> I[Generate Processed CSV (if needed)]
     I --> J[Display Global Statistics & Data Tables]
