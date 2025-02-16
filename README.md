@@ -17,7 +17,6 @@
    ```
 
 2. **Create and Activate a Virtual Environment (Optional) Conda:**
-   Using Conda:
    ```bash
    conda env create -n seagent -f environment.yml   
    ```
