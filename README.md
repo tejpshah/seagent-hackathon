@@ -78,9 +78,9 @@ flowchart TD
     D & E --> F[Process CSV via Validation Module]
     F --> G[Call Perplexity API - Batch/Threaded]
     G --> H[Generate JSON Results]
-    H --> I[Generate Processed CSV (if needed)]
-    I --> J[Display Global Statistics & Data Tables]
-    J --> K[Show Provider Summary & Detailed Reports]
+    H --> I[Generate Processed CSV if needed]
+    I --> J[Display Global Statistics and Data Tables]
+    J --> K[Show Provider Summary and Detailed Reports]
 ```
 
 ---
