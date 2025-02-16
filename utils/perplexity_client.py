@@ -5,6 +5,7 @@ import time
 import threading
 
 logger = logging.getLogger(__name__)
+
 class PerplexityClient:
     def __init__(self, api_key: str, api_url: str, model: str):
         self.api_key = api_key
@@ -31,7 +32,6 @@ class PerplexityClient:
         if logger.isEnabledFor(logging.DEBUG):
             logger.debug("Request payload: %s", json.dumps(payload, indent=2))
         
-        # Rate limiting: ensure at least min_interval seconds between requests
         with self.rate_lock:
             now = time.monotonic()
             elapsed = now - self.last_request_time

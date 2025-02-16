@@ -1,0 +1,305 @@
+{
+  "global_statistics": {
+    "Validated": 61.11,
+    "Needs Work": 22.22,
+    "Incorrect": 16.67
+  },
+  "results": [
+    {
+      "provider": "UW Medicine Primary Care at Northgate",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Confirmed as Primary Care",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Contact Name": {
+          "status": "Needs Work",
+          "message": "Dr. Kimberly L. Collins is one of many providers at this location",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate",
+            "https://www.uwmedicine.org/bios/kimberly-collins"
+          ]
+        },
+        "Phone": {
+          "status": "Incorrect",
+          "message": "Correct phone number is 206-520-5000",
+          "source": [
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/uw-medicine-primary-care-at-northgate-yybhmf"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email provided for direct contact",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "Correct website URL",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "Confirmed accepting new patients",
+          "source": [
+            "https://www.healthgrades.com/physician/dr-kimberly-collins-xr6vr"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Costs vary based on insurance and service",
+          "source": [
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Accepts insurance and self-pay",
+          "source": [
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "No restrictions mentioned",
+          "source": [
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Incorrect",
+          "message": "Hours are Mon-Thu: 8am-8pm, Fri: 8am-5pm, Sat: 8:30am-4pm, Sun: Closed",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "Correct address",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English confirmed, but interpreter services available for 80+ languages",
+          "source": [
+            "https://www.uwmedicine.org/patient-resources/interpreter-services"
+          ]
+        }
+      },
+      "counts": {
+        "Validated": 8,
+        "Needs Work": 2,
+        "Incorrect": 2
+      },
+      "statistics": {
+        "Validated": 66.67,
+        "Needs Work": 16.67,
+        "Incorrect": 16.67
+      }
+    },
+    {
+      "provider": "Swedish First Hill Primary Care",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Confirmed as Primary Care",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "No specific contact name provided",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Phone": {
+          "status": "Incorrect",
+          "message": "Correct phone number is 206-386-9505",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email provided",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "Correct website URL",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Needs Work",
+          "message": "Not explicitly stated, but appointments can be scheduled",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "Confirmed that visits start at $99",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Accepts insurance and self-pay",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Eligibility": {
+          "status": "Needs Work",
+          "message": "Provides adult care, not explicitly stated as open to all",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Validated",
+          "message": "Confirmed as Mon-Fri: 8am-5pm",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Full Address": {
+          "status": "Incorrect",
+          "message": "Correct address is 515 Minor Ave, Suite 300, Seattle, Washington 98104",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English likely offered, but no specific language information provided",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        }
+      },
+      "counts": {
+        "Validated": 7,
+        "Needs Work": 3,
+        "Incorrect": 2
+      },
+      "statistics": {
+        "Validated": 58.33,
+        "Needs Work": 25.0,
+        "Incorrect": 16.67
+      }
+    },
+    {
+      "provider": "Wise Patient Internal Medicine",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Specializes in Internal Medicine",
+          "source": [
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "Janna Cuneo, NP is listed as accepting patients",
+          "source": [
+            "https://imwisepatient.com/janna-cuneo/"
+          ]
+        },
+        "Phone": {
+          "status": "Validated",
+          "message": "Correct phone number",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "Correct email for waitlist",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "Correct website",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "Some providers are accepting new patients",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Needs Work",
+          "message": "Mentions a 'low monthly fee' but specific costs not provided",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Needs Work",
+          "message": "Operates on a Direct Primary Care model, specific payment methods not mentioned",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "Appears open to all",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Incorrect",
+          "message": "Specific hours not provided in search results",
+          "source": []
+        },
+        "Full Address": {
+          "status": "Incorrect",
+          "message": "Correct address is 613 19th Ave E Ste 201, Seattle, WA 98112",
+          "source": [
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English confirmed, Spanish and Vietnamese also mentioned",
+          "source": [
+            "https://doctor.webmd.com/practice/wise-patient-internal-medicine-47c8c45d-bc62-4431-8ea2-4c89d1cb91d9"
+          ]
+        }
+      },
+      "counts": {
+        "Validated": 7,
+        "Needs Work": 3,
+        "Incorrect": 2
+      },
+      "statistics": {
+        "Validated": 58.33,
+        "Needs Work": 25.0,
+        "Incorrect": 16.67
+      }
+    }
+  ]
+}
