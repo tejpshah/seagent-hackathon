@@ -70,17 +70,74 @@ The dashboard is built using **Streamlit** and is organized into modular compone
 Below is a Mermaid diagram illustrating the workflow:
 
 ```mermaid
-flowchart TD
-    A[User Opens Dashboard] --> B[Selects Input Source]
-    B --> C{Preloaded CSV?}
-    C -- Yes --> D[Select CSV from data folder]
-    C -- No --> E[Upload CSV File]
-    D & E --> F[Process CSV via Validation Module]
-    F --> G[Call Perplexity API - Batch/Threaded]
-    G --> H[Generate JSON Results]
-    H --> I[Generate Processed CSV if needed]
-    I --> J[Display Global Statistics and Data Tables]
-    J --> K[Show Provider Summary and Detailed Reports]
+graph TB
+    User((User))
+
+    subgraph "Frontend Container"
+        StreamlitUI["Web Interface<br>Streamlit"]
+        
+        subgraph "Frontend Components"
+            DashboardPage["Dashboard Page<br>Streamlit"]
+            TrainingPage["Training Page<br>Streamlit"]
+            DatasetsPage["Datasets Page<br>Streamlit"]
+            ConfigPanel["Configuration Panel<br>Streamlit"]
+            ResultsViewer["Results Viewer<br>Streamlit"]
+        end
+    end
+
+    subgraph "Backend Container"
+        ValidationService["Validation Service<br>Python"]
+        
+        subgraph "Core Components"
+            DataUtils["Data Utils<br>Python"]
+            ValidationModule["Validation Module<br>Python"]
+            StrategyModule["Strategy Module<br>Python"]
+            ModelModule["Domain Models<br>Pydantic"]
+        end
+    end
+
+    subgraph "Data Storage Container"
+        FileSystem["File System Storage<br>Local Files"]
+        
+        subgraph "Storage Components"
+            DataFolder["Data Directory<br>CSV Files"]
+            ResultsFolder["Results Directory<br>JSON/CSV"]
+            UploadsFolder["Uploads Directory<br>CSV Files"]
+        end
+    end
+
+    subgraph "External Services"
+        PerplexityAPI["Perplexity API<br>REST API"]
+    end
+
+    %% Frontend Relationships
+    User -->|"Interacts with"| StreamlitUI
+    StreamlitUI -->|"Displays"| DashboardPage
+    StreamlitUI -->|"Displays"| TrainingPage
+    StreamlitUI -->|"Displays"| DatasetsPage
+    StreamlitUI -->|"Contains"| ConfigPanel
+    StreamlitUI -->|"Contains"| ResultsViewer
+
+    %% Backend Relationships
+    DashboardPage -->|"Uses"| ValidationService
+    TrainingPage -->|"Uses"| ValidationService
+    DatasetsPage -->|"Uses"| DataUtils
+    
+    ValidationService -->|"Uses"| DataUtils
+    ValidationService -->|"Uses"| ValidationModule
+    ValidationService -->|"Uses"| StrategyModule
+    ValidationModule -->|"Uses"| ModelModule
+    StrategyModule -->|"Uses"| ModelModule
+
+    %% Data Storage Relationships
+    DataUtils -->|"Reads/Writes"| FileSystem
+    ValidationService -->|"Reads/Writes"| FileSystem
+    FileSystem -->|"Contains"| DataFolder
+    FileSystem -->|"Contains"| ResultsFolder
+    FileSystem -->|"Contains"| UploadsFolder
+
+    %% External Service Relationships
+    StrategyModule -->|"Calls"| PerplexityAPI
 ```
 
 ---
