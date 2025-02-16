@@ -1,0 +1,326 @@
+{
+  "global_statistics": {
+    "Validated": 63.89,
+    "Needs Work": 19.44,
+    "Incorrect": 16.67
+  },
+  "results": [
+    {
+      "provider": "UW Medicine Primary Care at Northgate",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "UW Medicine Primary Care at Northgate offers comprehensive primary care services, including family medicine, internal medicine, and pediatrics.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate",
+            "https://find-human-services.kingcounty.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "Dr. Kimberly L. Collins is confirmed as a provider at UW Medicine Primary Care at Northgate.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate",
+            "https://www.uwmedicine.org/bios/kimberly-collins"
+          ]
+        },
+        "Phone": {
+          "status": "Validated",
+          "message": "The phone number 206-528-8000 is correct for UW Medicine Primary Care at Northgate.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email address is provided for UW Medicine Primary Care at Northgate in the search results. The clinic's contact information includes a phone number and fax number, but no email.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "The website URL for UW Medicine Primary Care at Northgate is correct.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Validated",
+          "message": "Multiple providers at UW Medicine Primary Care at Northgate are listed as accepting new and returning patients.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "The cost of service at UW Medicine Primary Care at Northgate varies depending on the specific service and insurance coverage. The clinic accepts most major insurance plans and offers financial assistance for those who qualify.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate",
+            "https://www.uwmedicine.org/patient-resources/billing-and-insurance/estimate-options"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "UW Medicine Primary Care accepts both insurance and self-pay options. They offer discounts for uninsured patients and those with services not covered by insurance.",
+          "source": [
+            "https://www.uwmedicine.org/patient-resources/billing-and-insurance/faq",
+            "https://www.uwmedicine.org/patient-resources/billing-and-insurance/discount-details"
+          ]
+        },
+        "Full Address": {
+          "status": "Validated",
+          "message": "The address is correct and confirmed by multiple sources.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate",
+            "https://www.mapquest.com/us/washington/uw-medicine-primary-care-at-northgate-284237360",
+            "https://www.zocdoc.com/practice/uw-medicine-primary-care-at-northgate-62619"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Incorrect",
+          "message": "The correct hours are Monday-Thursday: 8:00 am - 8:00 pm, Friday: 8:00 am - 5:00 pm, Saturday: 8:30 am - 4:00 pm, Sunday: Closed.",
+          "source": [
+            "https://www.uwmedicine.org/locations/primary-care-northgate"
+          ]
+        },
+        "Eligibility": {
+          "status": "Incorrect",
+          "message": "UW Medicine Primary Care at Northgate has eligibility restrictions. WA Apple Health (Medicaid) is accepted only for established patients, dependents of established patients, and patients referred by a UW physician.",
+          "source": [
+            "https://pprs.doh.wa.gov/search/444b43fc-02d9-5316-ba7b-f25d3c1164cd"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "English is spoken, but additional languages are also available. The clinic offers interpreter services in over 80 languages and dialects, including Chinese, Russian, Spanish, Tagalog, and Vietnamese.",
+          "source": [
+            "https://doctor.webmd.com/practice/uw-neighborhood-northgate-clinic-c94e5062-99a1-411f-9bb9-c55e337b8a0e",
+            "https://www.uwmedicine.org/patient-resources/interpreter-services"
+          ]
+        }
+      },
+      "counts": {
+        "Validated": 9,
+        "Needs Work": 1,
+        "Incorrect": 2
+      },
+      "statistics": {
+        "Validated": 75.0,
+        "Needs Work": 8.33,
+        "Incorrect": 16.67
+      }
+    },
+    {
+      "provider": "Swedish First Hill Primary Care",
+      "results": {
+        "Contact Name": {
+          "status": "Validated",
+          "message": "No contact name is specified for Swedish First Hill Primary Care in the available search results.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/swedish-first-hill-primary-care-x86n5lg"
+          ]
+        },
+        "Service Type": {
+          "status": "Validated",
+          "message": "Swedish First Hill Primary Care provides primary care services for adults, including internal medicine, preventive care, and chronic disease management.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-primary-care"
+          ]
+        },
+        "Phone": {
+          "status": "Incorrect",
+          "message": "The correct phone number for Swedish First Hill Primary Care is (206) 386-9505.",
+          "source": [
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/swedish-first-hill-primary-care-x86n5lg",
+            "https://www.yellowpages.com/seattle-wa/mip/swedish-first-hill-primary-care-530578811"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "The website URL is correct for Swedish First Hill Primary Care.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "No email address is provided for Swedish First Hill Primary Care in the search results. The clinic's phone number is given instead for contact.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/swedish-first-hill-primary-care-x86n5lg"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Needs Work",
+          "message": "The search results do not explicitly state whether Swedish First Hill Primary Care is accepting new patients. However, the clinic's website invites people to call and schedule appointments, suggesting they may be open to new patients.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-primary-care"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Validated",
+          "message": "The cost information 'Visits start at $99' is correct for Swedish First Hill Primary Care's online care service.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Swedish accepts insurance and offers a self-pay program. They also provide financial assistance options for those who need it.",
+          "source": [
+            "https://www.swedish.org/locations/ballard-campus/family-medicine-ballard/faqs",
+            "https://www.swedish.org/patients-and-visitors/billing-and-financial-assistance"
+          ]
+        },
+        "Eligibility": {
+          "status": "Validated",
+          "message": "Swedish First Hill Primary Care appears to be open to all patients, with no specific eligibility restrictions mentioned.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Validated",
+          "message": "The opening hours for Swedish First Hill Primary Care are confirmed as Monday to Friday, 8 a.m. to 5 p.m.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care"
+          ]
+        },
+        "Full Address": {
+          "status": "Incorrect",
+          "message": "The correct address for Swedish First Hill Primary Care is 515 Minor Ave, Suite 300, Seattle, Washington 98104.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-primary-care?Is=location"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "While English is likely offered, the clinic serves a diverse population and provides interpreters for many languages. Spanish interpreters are available on-site, and phone/video interpreters are available for numerous other languages.",
+          "source": [
+            "https://www.swedish.org/locations/first-hill-campus/first-hill-primary-care",
+            "http://www.swedishfirsthill.org/dfm"
+          ]
+        }
+      },
+      "counts": {
+        "Validated": 8,
+        "Needs Work": 2,
+        "Incorrect": 2
+      },
+      "statistics": {
+        "Validated": 66.67,
+        "Needs Work": 16.67,
+        "Incorrect": 16.67
+      }
+    },
+    {
+      "provider": "Wise Patient Internal Medicine",
+      "results": {
+        "Service Type": {
+          "status": "Validated",
+          "message": "Wise Patient Internal Medicine specializes in Internal Medicine and primary care services.",
+          "source": [
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa",
+            "https://imwisepatient.com"
+          ]
+        },
+        "Contact Name": {
+          "status": "Validated",
+          "message": "Janna Cuneo, NP is a current provider at Wise Patient Internal Medicine and is accepting new patients.",
+          "source": [
+            "https://imwisepatient.com",
+            "https://imwisepatient.com/our-providers/",
+            "https://imwisepatient.com/janna-cuneo/"
+          ]
+        },
+        "Phone": {
+          "status": "Validated",
+          "message": "The phone number 206-466-5937 for Wise Patient Internal Medicine is correct.",
+          "source": [
+            "https://imwisepatient.com/contact-us/",
+            "https://www.zoominfo.com/c/wise-patient-internal-medicine/411190049"
+          ]
+        },
+        "Email": {
+          "status": "Validated",
+          "message": "The email waitlist@wisepatientim.com is correct for contacting Wise Patient Internal Medicine about becoming a new patient.",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Website": {
+          "status": "Validated",
+          "message": "The website https://imwisepatient.com/ is correct for Wise Patient Internal Medicine.",
+          "source": [
+            "https://imwisepatient.com",
+            "http://imwisepatient.com"
+          ]
+        },
+        "Accepting New Patients": {
+          "status": "Needs Work",
+          "message": "Only some providers at Wise Patient Internal Medicine are accepting new patients. Janna Cuneo, NP, Nazlee Navabi, MD, and David Roesel, MD are currently accepting new patients, while Sam Warren, MD and Rachel Beda, MD are not.",
+          "source": [
+            "https://imwisepatient.com",
+            "https://imwisepatient.com/our-providers/"
+          ]
+        },
+        "Cost of Service": {
+          "status": "Incorrect",
+          "message": "The cost of service for Wise Patient Internal Medicine is $149/month for Direct Primary Care memberships and $131/month for Medicare Concierge memberships, effective as of the most recent update.",
+          "source": [
+            "https://imwisepatient.com/direct-primary-care/membership-pricing-faqs/"
+          ]
+        },
+        "Payment Methods": {
+          "status": "Validated",
+          "message": "Wise Patient Internal Medicine accepts both insurance and self-pay options. They offer a Direct Primary Care (DPC) membership for $149/month as a self-pay option, and also work with insurance plans.",
+          "source": [
+            "https://imwisepatient.com/membership-benefits/"
+          ]
+        },
+        "Eligibility": {
+          "status": "Needs Work",
+          "message": "While Wise Patient Internal Medicine is accepting new patients, eligibility is limited to specific providers. Janna Cuneo, NP, Nazlee Navabi, MD, and David Roesel, MD are currently accepting new patients. For Sam Warren, MD or Rachel Beda, MD, there is a waitlist.",
+          "source": [
+            "https://imwisepatient.com"
+          ]
+        },
+        "Opening Hours": {
+          "status": "Needs Work",
+          "message": "The hours are partially correct but need updating. Monday-Thursday: 8:00am \u2013 5:00pm, Friday: 8:30am \u2013 4:00pm, Saturday-Sunday: Closed.",
+          "source": [
+            "https://imwisepatient.com/contact-us/"
+          ]
+        },
+        "Full Address": {
+          "status": "Incorrect",
+          "message": "The correct address is 613 19th Ave E Ste 201, Seattle WA 98112.",
+          "source": [
+            "https://www.healthgrades.com/group-directory/wa-washington/seattle/wise-patient-internal-medicine-x9svhsa",
+            "https://mapper.dpcfrontier.com/practice/nqnvsjmjcbec"
+          ]
+        },
+        "Languages": {
+          "status": "Needs Work",
+          "message": "While English is likely spoken, there is no explicit confirmation of languages offered. More research is needed to validate this information.",
+          "source": [
+            "https://imwisepatient.com/our-providers/",
+            "https://imwisepatient.com"
+          ]
+        }
+      },
+      "counts": {
+        "Validated": 6,
+        "Needs Work": 4,
+        "Incorrect": 2
+      },
+      "statistics": {
+        "Validated": 50.0,
+        "Needs Work": 33.33,
+        "Incorrect": 16.67
+      }
+    }
+  ]
+}
