@@ -59,7 +59,7 @@ if input_source == "Preloaded CSV":
         st.sidebar.info(f"Processing file: {saved_filename}")
         output_prefix = os.path.splitext(os.path.basename(saved_filename))[0]
         try:
-            validation.validate_dataset(
+            validation.async_calls_validate_dataset(
                 csv_filepath=saved_filename,
                 output_prefix=output_prefix,
                 strategy=strategy,
