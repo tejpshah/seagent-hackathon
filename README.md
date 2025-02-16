@@ -36,7 +36,7 @@
 4. **Set Up Environment Variables:**
    Create a `.env` file in the project root with the following content:
    ```dotenv
-   PERPLEXITY_API_KEY=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
+   PERPLEXITY_API_KEY=[INSERT_CODE_HERE -- yes, I deleted the API key, so don't go back into the commits]
    PERPLEXITY_API_URL=https://api.perplexity.ai/chat/completions
    PERPLEXITY_MODEL=sonar-pro
    ```
